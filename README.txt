@@ -4,3 +4,4 @@ Product Definition: A supplementary feature to already existing corporation apps
 Student Numbers:
 Binura Gunasekera (300021973)
 Sébastien Gorman (300023785)
+Ellen Li (300015724)
