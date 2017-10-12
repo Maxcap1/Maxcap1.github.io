@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1> Testin 1 </h1>
+    <style>
+        body{
+            background-image: url(rome.png)
+        }
+        
+        ul{
+            list-style-type: none;
+            margin:100;
+            padding:100;
+        }
+        li{
+            display: inline;
+        }
+        <ul>
+        <li><a href= "Maxcap Html/"<Home>
+        </ul>
+        body{
+            background-image: url("Map1.PNG")
+        }
+    </style>
+</head>
+</html>
