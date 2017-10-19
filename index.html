@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style>
-        html {
-            background-image: url(assets/rome2.png)
-        }
-
-        body {
-			font:13px sans-serif;
-			background-color: white;
-			box-shadow: 0 0 5px 5px black;
-			max-width: 65%;
-			color: #444;
-			margin: auto;
-			padding: 0;
-			text-align: left;
-		}
-        
-        ul{
-            list-style-type: none;
-            margin:100;
-            padding:100;
-        }
-
-        h1 {
-        	font-size: 210%;
-			color: white;
-			text-align: center;
-			background-color: #005236;
-			border-top: 3px solid black;
-			border-bottom: 3px solid black;
-        }
-
-        a {
-			color: #0063DC;
-			text-decoration: none;
-        }
-    </style>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="js.js"></script>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="https://use.fontawesome.com/f927c00188.js"></script>
 </head>
 <body>
-	<h1>MaxCap</h1>
-	<a href="team.html">Team</a>
+    <style>
+        body{
+            background-image:url(rain2.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+<div class = "logonav"><img src="maxcaplogo2.png"></div>
+<div class="navbar">
+<ul>
+  <li><a href="#home" class="home">Home<i class="fa fa-home" aria-hidden="true"></i></a></li>
+  <li><a href="#news" class="news">News <i class="fa fa-newspaper-o" aria-hidden="true"></i></a></li>
+  <li><a href="#contact" class="contact">Contact <i class="fa fa-phone" aria-hidden="true"></i></a></li>
+  <li><a href="#about" class ="team">Team <i class="fa fa-users" aria-hidden="true"></i></a></li>
+  
+</ul>
+    </div>
+    
+<div class = "maxcap">
+    <img src="maxcaplogo2.png">
+    </div>
+    <div class="description"> - Unifying Customer and Service <i class="fa fa-handshake-o" aria-hidden="true"></i>  </div>
+    <br>
+    <div id = "newget" class = "get">
+        <div class = "titler">Learn More </div>
+        <div id ="smooth" class = "button1"><a href = "#testing">Explore <i class="fa fa-globe"></i> </a></div>
+    <div id = "smoothie" class = "button2"><a href = "#testing2">Introduction <i class="fa fa-book" aria-hidden="true"></i></a></div>
+    <div id = "getstarted" class = "getstarty">Get Started</div> 
+        <div class = "circle"><i class="fa fa-user-circle-o" aria-hidden="true"></i> </div>
+        <input type="text" id = "username class" class = "usern" placeholder = "Username or e-Mail" >
+        
+    <div class = "lock"> <i class="fa fa-lock" aria-hidden="true"></i></div><input type="text" id = "password" class = "pword" placeholder = "Password">
+    <div id = "submit" class = "submitter"> Sign Up </div> <div class = "checkmark"><i class="fa fa-check" aria-hidden="true"></i></div>
+    </div>
+    
+    <div id = "message" class = "message"> Contact Us:</div>
+    
+    <div id= "smoother" class = "testingcool">TESTING COOL</div>
+    <div id= "evensmoother" class = "testingcooler">TESTING COOLER</div>
 </body>
 </html>
