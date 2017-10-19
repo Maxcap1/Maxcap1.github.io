@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+
+/** NavBAR Elements and CSS **/
+ul {
+    position:fixed;
+    background-color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    overflow: hidden;
+    left:0;
+    right:0;
+    text-align:center;
+    opacity:0.9;
+    z-index:99999
+}
+
+
+li a:hover {
+    background-color: #07273D;
+    color:white;
+    font-weight: bold;
+}
+
+
+
+
+li {
+    float: right;   
+}
+
+
+.home{
+    margin-top:0px;
+    font-family:Saira Extra condensed;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 3px 90px 25px 10px ;
+    text-decoration: none;
+    font-size: 40px;
+    transition: all 500ms ease;
+    opacity:0.9; 
+}
+
+
+
+
+
+/** NavBar elements **/
+
+.contact{
+    margin-top:0px;
+    font-family:Saira Extra condensed;
+
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 3px 90px 25px 10px ;
+    text-decoration: none;
+    font-size: 40px;
+    transition: all 500ms ease;
+    opacity:0.9; 
+}
+
+.news{
+    margin-top:0px;
+    font-family:Saira Extra condensed;
+
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 3px 90px 25px 10px ;
+    text-decoration: none;
+    font-size: 40px;
+    transition: all 500ms ease;
+    opacity:0.9; 
+}
+
+.team{
+    margin-top:0px;
+    font-family:Saira Extra condensed;
+
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 3px 90px 25px 10px ;
+    text-decoration: none;
+    font-size: 40px;
+    transition: all 500ms ease;
+    opacity:0.9; 
+}
+
+
+
+
+
+/** MAXCAP LOGO DIV (NEED TO FIX CRITICAL ERROR) **/
+
+.maxcap {
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.4);
+    border: 0px;
+    padding: 0px;
+    margin-top: 100px;
+    margin-left: -8px;
+    text-align: left;
+    width: 1350px;
+    left:0;
+    transition: all 500ms ease;
+}
+
+
+.maxcap img{
+    height:90%;
+    width:80%;
+}
+
+.button2 i{
+    margin-left:20px;
+}
+.button1 i{
+    margin-left:20px;
+}
+
+
+
+/** "Unifying Customer and Service" **/
+
+.description{
+    border-radius: 10px;
+    background-color: #07273D;
+    font-family:Saira Extra condensed;
+    width: 400px;
+    text-align:center;
+    color:white;
+    font-size:30px;
+    margin-left:400px;
+    margin-top:-150px;
+    border: 2px solid #07273E;
+    padding: 10px;
+    position:absolute;
+    transition: all 500ms ease; 
+    overflow:hidden;
+      
+}
+
+.description:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border-color:#ffffff;
+}
+.description i{
+    margin-left:15px;
+}
+
+
+
+
+
+/** MENU BLOCK With 2 buttons and Growth (NEED TO FIX CRITICAL ERROR) **/
+
+
+.get{
+    font-family:Saira Extra condensed;
+    color: white;
+    font-size:30px;
+    background-color:#07273D;
+    width: 300px;
+    height: 625px;
+    border-radius: 10px;
+    border: 2px solid #07273E;
+    padding: 10px;
+    margin-left: 1370px;
+    margin-top: -795.5px;
+    position:absolute;
+    text-align:center;
+    transition: all 900ms ease-in-out;
+    opacity:0.9;    
+}
+
+.get:hover{
+    opacity:1.0;
+    border-color:#ffffff;
+}
+
+
+
+
+
+/** Button 1 CSS (Explore) **/
+
+
+
+.get:hover .button1{
+    transition: all 1.1s ease;
+    opacity:0.8;
+}
+.button1{
+    border-color:#ffffff;
+    padding:20px;
+    position: relative;
+    margin-top: 30px;
+    border-radius:25px;
+    border-color:#f77777;
+    border:3px solid #ff7777;
+    background-color:#ff7777;
+    opacity:0.8;
+    transition: all 300ms ease;
+}
+.button1:hover{
+    border-color:#ffffff;
+}
+
+.button1 >a{
+    text-decoration:none;
+    color: #ffffff;
+    align-content: center;
+}
+
+
+.getstarty{
+    font-size:25px;
+    color:#000000;
+    padding:5px;
+    background-color:#ffffff;
+    position: relative;
+    margin-top:30px;
+    border-radius:25px;
+    border-color:#f77777;
+    border:2px solid #ff7777;
+    opacity:0.7;
+    transition: all 800ms ease;
+}
+
+.get:hover .getstarty{
+    color:#ffffff;
+    background-color: #07273D;
+    border-color:white;
+    opacity:0.8;
+}
+
+/** "Getting Started" CSS **/
+
+.titler{
+    font-size:25px;
+    color:#000000;
+    padding:5px;
+    background-color:#ffffff;
+    position: relative;
+    margin-top:-3px;
+    margin-top:-3px;
+    border-radius:25px;
+    border-color:#f77777;
+    border:2px solid #ff7777;
+    opacity:0.7;
+    transition: all 800ms ease;
+}
+
+.get:hover .titler{
+    color:#ffffff;
+    background-color: #07273D;
+    border-color:white;
+    opacity:0.8;
+}
+
+.ul i{
+    margin-left:20px;
+}
+
+
+
+/** Button 2 (Introduction) **/
+
+
+.get:hover .button2{
+    transition: all 1.2s ease;
+    opacity:0.8;
+}
+.button2{
+    border-color:#ffffff;
+    padding:20px;
+    position: relative;
+    margin-top: 40px;
+    border-radius:25px;
+    border-color:#f77777;
+    border:3px solid #ff7777;
+    background-color:#ff7777;
+    opacity:0.8;
+    transition: all 300ms ease;
+}
+.button2 > a {
+  position: relative;
+  color: #ffffff;
+align-content:center;
+  text-decoration: none;
+}
+
+.button2:hover{
+    border-color:#ffffff;
+}
+
+
+
+
+/** Testing Block **/
+
+.testingcool{
+    font-family:Saira Extra condensed;
+    padding:100px;
+    color:white;
+    margin-top:100px;
+    margin-left:-8px;
+    border-radius:10px;
+    background-color: #07273D;
+    font-size:40px;
+    position:relative;
+}
+
+.testingcooler{
+    font-family:Saira Extra condensed;
+    padding:100px;
+    color:white;
+    margin-top:500px;
+    margin-left:-8px;
+    border-radius:10px;
+    background-color: #07273D;
+    font-size:40px;
+}
+
+
+
+
+/** Navbar logo **/
+
+.logonav {
+    background-color: none;
+    padding: 0px;
+    margin-top: -100px;
+    margin-left: 0px;
+    width: 117px;
+    left:0;
+    transition: all 700ms ease;
+    opacity:0.7;
+    position:fixed;
+    z-index:999999;
+}
+
+.logonav img{
+    height:100%;
+    width:100%;
+}
+.logonav:hover{
+    background-color:none;
+    opacity:0.9;
+}
+
+.get .pword{
+    margin-left: -83px;
+    margin-top:25px;
+    padding: 9px;
+    border-radius:10px;
+    border: 1px solid #f77777;
+    background-color:white;
+    width: 210px;
+    position:absolute;
+}
+
+.get .usern{
+    margin-left: 63px;
+    margin-top: 30px;
+    padding:9px;
+    border-radius:10px;
+    border: 1px solid #f77777;
+    background-color:white;
+    width:210px;
+}
+
+.lock i{
+    font-size:35px;
+    position:absolute;
+    margin-left:-142px;
+    margin-top:25px  
+}
+.circle i{
+   font-size:28px;
+    position:absolute;
+    margin-left:-145px;
+    margin-top:30px   
+}
+
+
+.submitter{
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: #000000;
+    margin-top: 85px;
+    margin-left: 64px;
+    width:150px;
+    border: 2px;
+    opacity:0.6;
+    transition: all 500ms ease-in-out;
+}
+.submitter:hover{
+    background-color:#205E6E;
+    opacity:0.9;
+    
+}
+
+
+
+.checkmark i{
+    opacity:1.0;
+    font-size:30px;
+    position:absolute;
+    margin-left:108px;
+    margin-top:-50px;   
+}
+
+.submitter:hover .fa-check{
+    opacity:0.0;
+}
+    
+.message{
+    font-family:Saira Extra condensed;
+    width: 275px;
+    font-size:30px;
+    text-align:center;
+    padding: 25px;
+    background-color:#07273D;
+    opacity: 0.9;
+    color:white;
+    margin-left:1370px;
+    margin-top:-115px;
+    border-radius:12px;
+    border: 2px color: #07273D;
+    transition: all 500ms ease-in-out;
+}
+
+
+
+
+/* Animation for underline (in testing)
+/* Remember to fix blue text for getting started
+.button2 > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.titler > a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.titler > a:hover {
+  color: #000;
+}
+
+.titler > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.titler > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
