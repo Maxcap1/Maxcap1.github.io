@@ -2,145 +2,186 @@
 <html>
 <head>
 	<style type="text/css">
-		html, body {
-   			overflow: auto;
-		}
-		html {
-			background-image: url(assets/rome2.png);
-			/*background-color: #e4e4e4;*/
-		}
 		body {
-			font:13px sans-serif;
-			background-color: white;
-			box-shadow: 0 0 5px 5px black;
-			max-width: 65%;
-			color: #444;
-			margin: auto;
+			/* image */
+			background-image: url(assets/rome2.png);
+			
+			/* positioning */
+			height: 100%;
+			min-width: 1060px; 
+			margin: 0;
 			padding: 0;
+
+			/* text */
 			text-align: left;
+			font-family: Verdana;
+			font-size: small;
+			color: #242729;
+		}
+		.wrapper {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			height: 100%;
+			overflow: auto;
+		}
+		.footer {
+			border-left: 2px solid silver;
+			border-right: 2px solid silver;
+			background: #242729;
+			width: 1060px;
+			margin: 0 auto;
+			position: relative;
+			line-height: 1.5em;
+			padding: 1em;
+			text-align: center;
+		}
+		.footer a{
+			color: white;
+			text-decoration: none;
+		}
+		.footer-info li{
+			display: inline-block;
+			padding-right: 1.5em;
+		}
+		.footer-info ul{
+			list-style-type: none;
+			display: inline-block;
+
 		}
 		.content {
-			margin: auto;
-			width: 70%;
+			border-left: 2px solid silver;
+			border-right: 2px solid silver;
+			background: white;
+			margin: 0 auto;
+			position: relative;
+			width: 1060px;
+			padding: 1em;
+			line-height: 1.5em;
+			overflow: auto;
 		}
-		.pageAuthor {
-			font-size: 90%;
-			font-weight: normal;
-			display: block;
+		.pageDate {
 			line-height: 1.5em;
 		}
 		.pageDesc {
-			font-weight: bold;
-			display: block;
 			line-height: 1.5em;
 			margin: 0.25em 0em 0.5em 0em;
 		}
 		h1 {
-			font-size: 210%;
-			color: white;
-			text-align: center;
-			background-color: #005236;
-			border-top: 3px solid black;
-			border-bottom: 3px solid black;
-		}
-		h2 {
-			font-size: 150%;
-			font-weight: bold;
+			border-bottom: 1px solid silver;
 		}
 		h1, h2, h3, h4, h5, h6 {
-			margin: 0.75em 0 0.25em 0;
+			margin: 0.5em 0 0 0;
+			font-size: large;
+			font-weight: normal;
+			font-family: Helvetica;
 		}
-		h3 span {
-			color: white;
-			background-color: #005236;
-			font-size: 160%;
+		h1, h2 {
+			font-size: x-large;
+			font-weight: bold;
 		}
 		img {
-			vertical-align: middle;
-			margin: 10px;
+			width: 150px;
+			height: auto;
 			float:left;
+			margin: 15px 15px 15px 15px;
+			border: 1px solid #444;
+		}
+		.members{
+			overflow: hidden;
+		}
+		.members p{
+			margin: 5px;
+		}
+		.member-email{
+			padding: 0 0 0.75em 0;
 		}
 		a {
 			color: #0063DC;
-			text-decoration: none;
 		}
-		p {
-			line-height: 1.5em;
+		.returnToTop{
+			text-align: center;
+
+		}
+		.returnToTop a{
+			color: #242729;
 		}
 	</style>
 </head>
 <body>
+<div class="wrapper">
 	<div class="content">
-	<article>
+	<article id="top">
 		<h1>Team</h1>
-		<div class="pageAuthor">
-			authored by <a href="">MaxCap</a>
-		</div> <!--pageAuthor-->
+		<div class="pageDate">
+			Last Edited Oct 19, 2017
+		</div> <!--pageDate-->
 		<div class="pageDesc">
 			The team behind the MaxCap app, and working for the MaxCap organisation.
 		</div> <!--pageDecs-->
 		
-		<div>
-			<ul style="list-style-type:none;">
-			<h2>President</h2>
+		<div class="members">
 			<br>
-			<div style="clear:both">			
-				<li style="list-style-type:none;">				
+			<h2>President</h2>
+			<div>					
 					<img src="assets/stock_profile.png">
 					<h3><span>Member #1</span></h3>
-					<p><a href="">mem1@email.com</a></p>
+					<p class="member-email"><a href="">mem1@email.com</a></p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet luctus libero nec 					euismod. Vivamus fermentum vitae elit eu convallis. Praesent eu turpis nec ipsum aliquet dapibus. Nam mollis nulla mauris, quis scelerisque ligula condimentum vel. Integer porttitor congue tellus, sit amet viverra leo vehicula vitae. Nulla bibendum quis tellus sed feugiat. Vestibulum ex leo, dictum a tempor quis, tincidunt eget tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet luctus libero nec 					euismod. Vivamus fermentum vitae elit eu convallis. Praesent eu turpis nec ipsum aliquet dapibus. Nam mollis nulla mauris, quis scelerisque ligula condimentum vel. Integer porttitor congue tellus, sit amet viverra leo vehicula vitae. Nulla bibendum quis tellus sed feugiat. Vestibulum ex leo, dictum a tempor quis, tincidunt eget tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet luctus libero nec 					euismod. Vivamus fermentum vitae elit eu convallis. Praesent eu turpis nec ipsum aliquet dapibus. Nam mollis nulla mauris, quis scelerisque ligula condimentum vel. Integer porttitor congue tellus, sit amet viverra leo vehicula vitae. Nulla bibendum quis tellus sed feugiat. Vestibulum ex leo, dictum a tempor quis, tincidunt eget tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-				</li>
 			</div>
 			<br>
 			<h2>Staff</h2>
-			<br>
-			<div style="clear:both">			
-				<li style="list-style-type:none;">				
-					<img style="float:right;" src="assets/stock_profile.png">
+			<div style="overflow: auto;">						
+					<img src="assets/stock_profile.png">
 					<h3><span>Member #2, Executive Director</span></h3>
-					<p><a href="">mem2@email.com</a></p>
+					<p class="member-email"><a href="">mem2@email.com</a></p>
 					<p>Lorem ipsum  </p>
 					<p>Lorem ipsum  </p>
 					<p>Lorem ipsum  </p>
-				</li>
 			</div>
-			<div style="clear:both">			
-				<li style="list-style-type:none;">				
+			<div style="overflow: auto;">						
 					<img src="assets/stock_profile.png">
 					<h3><span>Member #3, Front-end Developer</span></h3>
-					<p><a href="">mem3@email.com</a></p>
+					<p class="member-email"><a href="">mem3@email.com</a></p>
 					<p>Lorem ipsum  </p>
 					<p>Lorem ipsum  </p>
 					<p>Lorem ipsum  </p>
-				</li>
 			</div>
-			<div style="clear:both">			
-				<li style="list-style-type:none;">				
-					<img style="float:right;" src="assets/stock_profile.png">
+			<div style="overflow: auto;">					
+					<img src="assets/stock_profile.png">
 					<h3><span>Member #4, Back-end Engineer</span></h3>
-					<p><a href="">mem4@email.com</a></p>
+					<p class="member-email"><a href="">mem4@email.com</a></p>
 					<p>Lorem ipsum  </p>
 					<p>Lorem ipsum  </p>
 					<p>Lorem ipsum  </p>
-				</li>
 			</div>
-			<div style="clear:both">			
-				<li style="list-style-type:none;">				
+			<div style="overflow: auto;">					
 					<img src="assets/stock_profile.png">
 					<h3><span>Member #5, Business Operations Manager</span></h3>
-					<p><a href="">mem5@email.com</a></p>
+					<p class="member-email"><a href="">mem5@email.com</a></p>
 					<p>Lorem ipsum  </p>
 					<p>Lorem ipsum  </p>
 					<p>Lorem ipsum  </p>
-				</li>
 			</div>
-			</ul>
 		</div>
-		
+		<div class="returnToTop"><a href="#top">RETURN TO TOP</a></div>
 	</article>
 	</div> <!--content-->
+	<div class="infoBar">
+		<div class="footer">
+			<div class="footer-info">
+				<ul>
+					<li><a href="index.html">Blog</a></li>
+					<li><a href="index.html">Terms of Use</a></li>
+					<li><a href="index.html">Privacy Policy</a></li>
+				</ul>
+			</div> <!--footer-info-->
+		</div> <!--footer-->
+	</div> <!--infoBar-->
+</div> <!--wrapper-->
 </body>
 </html>
