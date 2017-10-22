@@ -533,14 +533,15 @@ align-content:center;
 	position: relative;
 	transform: rotate(-45deg);
 	width: 20px;
-	margin-top:-7px;
+	margin-top:-11px;
     margin-left:0px;
 	-webkit-animation: arrowmover 3s infinite; /* Safari 4.0 - 8.0 */
     animation: arrowmover 3s infinite;
 	transform: rotate(45deg);
 }
 a.arrowright{
-	animation: fadein 1.5s ease-in alternate infinite;
+    position:absolute;
+	animation: fadein 2s ease-in alternate infinite;
 }
 
 @keyframes arrowmover{
@@ -548,11 +549,6 @@ a.arrowright{
     25%  {left: 230px;}
     75% {left:0px;}
     
-}
-
-@keyframes fadein{
-    from { opacity: 1; }
-    to { opacity: 0.4; }
 }
 
 /*************************************************************/
@@ -566,14 +562,15 @@ a.arrowright{
 	position: relative;
 	transform: rotate(-45deg);
 	width: 20px;
-	margin-top:-25px;
+	margin-top:-11px;
     margin-left:40px;
 	-webkit-animation: arrowmoverz 3s infinite; /* Safari 4.0 - 8.0 */
     animation: arrowmoverz 3s infinite;
 	transform: rotate(45deg);
 }
 a.arrowleft{
-	animation: fadein 1.5s ease-in alternate infinite;
+    position:absolute;
+	animation: fadein 2s ease-in alternate infinite;
 }
 
 @keyframes arrowmoverz{
@@ -583,10 +580,6 @@ a.arrowleft{
 
 }
 
-@keyframes fadein{
-    from { opacity: 1; }
-    to { opacity: 0.4; }
-}
 
 .arrowmoverzz{
 	color:white;
@@ -597,14 +590,15 @@ a.arrowleft{
 	position: relative;
 	transform: rotate(-45deg);
 	width: 20px;
-	margin-top:-25px;
+	margin-top:-10px;
     margin-left:20px;
 	-webkit-animation: arrowmoverzz 3s infinite; /* Safari 4.0 - 8.0 */
     animation: arrowmoverzz 3s infinite;
 	transform: rotate(45deg);
 }
 a.arrowmid{
-	animation: fadein 1.5s ease-in alternate infinite;
+    position:absolute;
+	animation: fadein 2s ease-in alternate infinite;
 }
 
 @keyframes arrowmoverzz{
@@ -616,7 +610,7 @@ a.arrowmid{
 
 @keyframes fadein{
     from { opacity: 1; }
-    to { opacity: 0.4; }
+    to { opacity: 0.0; }
 }
 
 
@@ -654,4 +648,44 @@ a.arrowmid{
 }
 .arrowmoverzz{
     transition:all 700ms ease-in-out;
+}
+
+
+/* Animation for underline (in testing)
+/* Remember to fix blue text for getting started
+.button2 > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.titler > a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.titler > a:hover {
+  color: #000;
+}
+
+.titler > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.titler > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
