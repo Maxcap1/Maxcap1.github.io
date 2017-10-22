@@ -1,120 +1,82 @@
-@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
 
 /** NavBAR Elements and CSS **/
-ul {
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+.navbar{
+    height:100%;
     position:fixed;
-    background-color: white;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    overflow: hidden;
-    left:0;
-    right:0;
-    text-align:center;
-    opacity:0.9;
-    z-index:99999
+    opacity:0.8;
+    z-index:99999;
 }
 
-
-li a:hover {
-    background-color: #07273D;
-    color:white;
-    font-weight: bold;
-}
-
-
-
-
-li {
-    float: right;   
-}
-
-
-.home{
-    margin-top:0px;
+ul {
     font-family:Saira Extra condensed;
-    color: black;
-    display: block;
-    text-align: center;
-    padding: 3px 90px 25px 10px ;
-    text-decoration: none;
-    font-size: 40px;
-    transition: all 500ms ease;
-    opacity:0.9; 
+    overflow:hidden;
+    list-style-type: none;
+    margin-top:-8px;
+    margin-left:-8px;
+    padding: 70px 0px 0px 0px;
+    width: 100px;
+    height:100%;
+    background-color: rgba(0,0,0,0.5);
 }
 
-
-
-
-
-/** NavBar elements **/
+li a{
+    opacity:1.0;
+}
 
 .contact{
-    margin-top:0px;
-    font-family:Saira Extra condensed;
-
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 3px 90px 25px 10px ;
-    text-decoration: none;
-    font-size: 40px;
-    transition: all 500ms ease;
-    opacity:0.9; 
+    margin-left:-6px;
+    transition: all 500ms ease-in-out;
 }
-
+li a:hover{
+    opacity:1.0;
+    background-color:rgba(0,153,153,0.8);
+    color: #ffffff;
+}
+.home{
+    margin-left:-2px;
+    transition: all 500ms ease-in-out;
+}
 .news{
-    margin-top:0px;
-    font-family:Saira Extra condensed;
-
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 3px 90px 25px 10px ;
-    text-decoration: none;
-    font-size: 40px;
-    transition: all 500ms ease;
-    opacity:0.9; 
+    margin-left:-2px;
+    transition: all 500ms ease-in-out;
 }
-
 .team{
-    margin-top:0px;
-    font-family:Saira Extra condensed;
+    margin-left:-2px;
+    transition: all 500ms ease-in-out;
 
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 3px 90px 25px 10px ;
-    text-decoration: none;
-    font-size: 40px;
-    transition: all 500ms ease;
-    opacity:0.9; 
 }
 
+li a {
+    text-align:center;
+    font-size:27px;
+    display: block;
+    color: #ffffff;
+    padding: 30px 15px;
+    text-decoration: none;
+}
 
-
+/* Change the link color on hover */
 
 
 /** MAXCAP LOGO DIV (NEED TO FIX CRITICAL ERROR) **/
 
 .maxcap {
     border-radius: 10px;
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(0,0,0,0.5);
     border: 0px;
     padding: 0px;
-    margin-top: 100px;
-    margin-left: -8px;
+    margin-top: -10px;
+    margin-left: 100px;
     text-align: left;
-    width: 1350px;
-    left:0;
+    width: 1425px;
     transition: all 500ms ease;
 }
 
 
 .maxcap img{
     height:90%;
-    width:80%;
+    width:100%;
 }
 
 .button2 i{
@@ -127,7 +89,12 @@ li {
 
 
 /** "Unifying Customer and Service" **/
-
+.fa-handshake-o{
+    transition: all 600ms ease-in-out;
+}
+.description:hover .fa-handshake-o{
+    color:#0DC88E;
+}
 .description{
     border-radius: 10px;
     background-color: #07273D;
@@ -136,8 +103,8 @@ li {
     text-align:center;
     color:white;
     font-size:30px;
-    margin-left:400px;
-    margin-top:-150px;
+    margin-left:600px;
+    margin-top:-195px;
     border: 2px solid #07273E;
     padding: 10px;
     position:absolute;
@@ -168,12 +135,12 @@ li {
     font-size:30px;
     background-color:#07273D;
     width: 300px;
-    height: 625px;
+    height: 800px;
     border-radius: 10px;
     border: 2px solid #07273E;
     padding: 10px;
-    margin-left: 1370px;
-    margin-top: -795.5px;
+    margin-left: 1560px;
+    margin-top: -986px;
     position:absolute;
     text-align:center;
     transition: all 900ms ease-in-out;
@@ -209,6 +176,8 @@ li {
     opacity:0.8;
     transition: all 300ms ease;
 }
+
+
 .button1:hover{
     border-color:#ffffff;
 }
@@ -337,9 +306,9 @@ align-content:center;
 .logonav {
     background-color: none;
     padding: 0px;
-    margin-top: -100px;
+    margin-top: -7px;
     margin-left: 0px;
-    width: 117px;
+    width: 90px;
     left:0;
     transition: all 700ms ease;
     opacity:0.7;
@@ -409,37 +378,296 @@ align-content:center;
 }
 
 
-
 .checkmark i{
-    opacity:1.0;
+    opacity:0;
     font-size:30px;
     position:absolute;
     margin-left:108px;
-    margin-top:-50px;   
+    margin-top:-40px;   
 }
 
-.submitter:hover .fa-check{
-    opacity:0.0;
-}
+
     
-.message{
-    font-family:Saira Extra condensed;
-    width: 275px;
-    font-size:30px;
-    text-align:center;
-    padding: 25px;
+
+.fullbackground{
+    overflow:hidden;
+    width:50000px;
+    height:940px;
+}
+
+.contactt{
+    color:black;
+    background-color:#ffffff;
+    margin-top:30px;
+    border-radius:60px;
+    opacity:0.7;
+    width:290px;
+    font-size:25px;
+    margin-left:-1px;
+    padding:5px;
+    border: 2px solid #f77777;
+    transition: all 700ms ease-in-out;
+}
+.get:hover .contactt{
     background-color:#07273D;
-    opacity: 0.9;
+    border-color:white;
     color:white;
-    margin-left:1370px;
-    margin-top:-115px;
-    border-radius:12px;
-    border: 2px color: #07273D;
+    opacity:0.9;
+}
+
+.fa-facebook-square{
+    margin-top:23px;
+}
+.facebook{
+    position:absolute;
+    margin-top:15px;
+    opacity:0.7;
+    align-content:center;
+    padding:0px;
+    background-color:#205E6E;
+    width: 140px;
+    height:80px;
+    border-radius: 10px;
+    border:2px solid #07273D;
+    transition: all 600ms ease-in-out;
+    
+}
+.facebook:hover{
+    opacity:0.9;
+    border:2px solid #ffffff;
+}
+.twitter{
+    
+    margin-left:156px;
+    margin-top:15px;
+    opacity:0.7;
+    align-content:center;
+    padding:0px;
+    background-color:#205E6E;
+    width: 140px;
+    height:80px;
+    border-radius: 10px;
+    border:2px solid #07273D;
+    transition: all 600ms ease-in-out;
+}
+.twitter:hover{
+    opacity:0.9;
+    border:2px solid #ffffff;
+}
+.fa-twitter-square{
+    margin-top:-200px;
+    margin-top:23px;
+    
+}
+
+.fa-facebook-square{
     transition: all 500ms ease-in-out;
 }
+.facebook:hover .fa-facebook-square{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity:1.0;
+}
+
+.fa-twitter-square{
+    transition: all 500ms ease-in-out;
+}
+.twitter:hover .fa-twitter-square{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity:1.0;
+}
+.fa-check{
+    transition: all 500ms ease-in-out;
+}
+.submitter:hover .fa-check{
+    color:#0DFF8E;
+    opacity:1.0;
+}
+
+.fa-user-circle-o{
+    transition: all 500ms ease-in-out;
+}
+.usercontainer:hover .fa-user-circle-o{
+    color:#0DFF8E;
+}
+
+.fa-lock{
+    transition: all 500ms ease-in-out;
+}
+.passcontainer:hover .fa-lock{
+    color:#0DFF8E;
+}
+
+.videoplayer{
+    position:absolute;
+    align-content: center;
+    border-radius:50%;
+    margin-top:-613.5px;
+    margin-left:1333px;
+    background-color:transparent;
+    padding:25px;
+    width:62.5px;
+    height:64.5px;
+    font-size:45px;
+    opacity:0.7;
+    transition: all 800ms ease-in-out;
+    text-decoration:none;
+}
+.fa-play{
+    margin-top:10px;
+    margin-left:18px;
+    transition: all 800ms ease-in-out;
+}
+
+.videoplayer:hover{
+    background-color:#CE5451;
+    opacity:0.9;
+    border:3px solid white;
+}
+.videoplayer:hover .fa-play{
+    transform: scale(1.3);
+    color:#ffffff;
+}
 
 
+.arrowmover{
+	color:white;
+	border-style: solid;
+	border-width: 0.25em 0.25em 0 0;
+	content: '';
+	display: inline-block;
+	height: 20px;
+	position: absolute;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	width: 20px;
+	margin-top:-7px;
+    margin-left:1660px;
+	-webkit-animation: arrowmover 3s infinite; /* Safari 4.0 - 8.0 */
+    animation: arrowmover 3s infinite;
+	transform: rotate(45deg);
+}
+a.arrowright{
+	animation: fadein 1.5s ease-in alternate infinite;
+}
 
+@keyframes arrowmover{
+	 0%   {left: 8px;}
+    25%  {left: 110px;}
+    75% {left:8px;}
+    
+}
+
+@keyframes fadein{
+    from { opacity: 1; }
+    to { opacity: 0.4; }
+}
+
+/*************************************************************/
+
+.arrowmoverz{
+	color:white;
+	border-style: solid;
+	border-width: 0.25em 0.25em 0 0;
+	content: '';
+	display: inline-block;
+	height: 20px;
+	position: absolute;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	width: 20px;
+	margin-top:-7px;
+    margin-left:1640px;
+	-webkit-animation: arrowmoverz 3s infinite; /* Safari 4.0 - 8.0 */
+    animation: arrowmoverz 3s infinite;
+	transform: rotate(45deg);
+}
+a.arrowleft{
+	animation: fadein 1.5s ease-in alternate infinite;
+}
+
+@keyframes arrowmoverz{
+	 0%   {left: 8px;}
+    25%  {left: 150px;}
+    75% {left:8px;}
+
+}
+
+@keyframes fadein{
+    from { opacity: 1; }
+    to { opacity: 0.4; }
+}
+
+.arrowmoverzz{
+	color:white;
+	border-style: solid;
+	border-width: 0.25em 0.25em 0 0;
+	content: '';
+	display: inline-block;
+	height: 20px;
+	position: absolute;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	width: 20px;
+	margin-top:-7px;
+    margin-left:1620px;
+	-webkit-animation: arrowmoverzz 3s infinite; /* Safari 4.0 - 8.0 */
+    animation: arrowmoverzz 3s infinite;
+	transform: rotate(45deg);
+}
+a.arrowmid{
+	animation: fadein 1.5s ease-in alternate infinite;
+}
+
+@keyframes arrowmoverzz{
+	 0%   {left: 8px;}
+    25%  {left: 190px;}
+    75% {left:8px;}
+
+}
+
+@keyframes fadein{
+    from { opacity: 1; }
+    to { opacity: 0.4; }
+}
+
+
+.lmao{
+    border-radius:20px;
+    padding:30px;
+    background-color:rgba(0,0,0,0.3);
+    width:263px;
+    height:6px;
+    margin-top: -70px;
+    margin-left:1560px;
+    border: 1px solid black;
+    transition: all 800ms ease-in-out;
+    
+}
+.lmao:hover{
+    border:1px solid white;
+    background-color:rgba(0,0,0,0.5);
+}
+.lmao:hover .arrowmoverzz{
+    color:#0DFF8E;
+}
+.lmao:hover .arrowmoverz{
+    color:#0DFF8E;
+}
+.lmao:hover .arrowmover{
+    color:#0DFF8E;
+}
+
+.arrowmover{
+    transition:all 700ms ease-in-out;
+}
+.arrowmoverz{
+    transition:all 700ms ease-in-out;
+}
+.arrowmoverzz{
+    transition:all 700ms ease-in-out;
+}
 
 /* Animation for underline (in testing)
 /* Remember to fix blue text for getting started
@@ -479,3 +707,4 @@ align-content:center;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
