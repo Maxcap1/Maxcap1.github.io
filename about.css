@@ -1,0 +1,33 @@
+body {
+    background-color: #E6E6E6;
+    font-family: Verdana, sans-serif;
+    font-size: 16.5pt;
+    color:	#333;
+}
+#container {
+    width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#OurGoal {
+    width: 780px;
+    float: right:
+    text-align: justify;
+}
+#OurGoal img {
+    float:left;
+    padding: 20px;
+}
+#HowItWorks {
+    width: 780px;
+    float: left;
+    text-align: justify;
+}
+#HowItWorks img {
+    float:right;
+    padding:20px;
+}
+#WhatWeBring {
+    width: 780px;
+    text-align: justify;
+}
