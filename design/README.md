@@ -1,4 +1,4 @@
-#Maxcap style guidelines
+# Maxcap style guidelines
 
 The website will have a mix of light and dark themes. 
 
