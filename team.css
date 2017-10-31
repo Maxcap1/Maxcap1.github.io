@@ -13,7 +13,7 @@
 		.items {
 			border-collapse: collapse;
 		}
-		.footer-line {
+		.footer-line, .header-line{
 			width: 100%;
 			border-collapse: collapse;
 
