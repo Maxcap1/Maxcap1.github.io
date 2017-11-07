@@ -27,3 +27,11 @@ img {
 	border-collapse: collapse;
 }
 
+.meta-info {
+	margin: 0;
+}
+
+.meta-info span {
+	float: right;
+}
+
