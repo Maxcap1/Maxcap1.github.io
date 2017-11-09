@@ -1,30 +1,26 @@
 body {
 	font-family: Baskerville, serif;
+	color: #303030;
+	background-color: #fffcf4; 
 }
 
 a {
-	color: #002f7c;
+	color: #636363;
 }
 
 h1 {
-	font-size: 175%;
-	margin: 5px 0 0 0;
+	font-size: 1.5em;
+	margin-bottom: 0;
 }
 
 img {
-	width: 100px;
-	height: auto;
-	margin: 10px;
+	margin: 0.7em;
 	border: 0.5px solid black;
 }
 
 .main {
-	width: 85%;
-	border-collapse: collapse;
-}
-
-.items {
-	border-collapse: collapse;
+	width: 65ch;
+	margin-left: 3em;
 }
 
 .meta-info {
@@ -33,5 +29,19 @@ img {
 
 .meta-info span {
 	float: right;
+}
+
+.member {
+	margin-bottom: 2em;
+}
+
+.member-info img {
+	width: 5em;
+	height: auto;
+	float: left;
+}
+
+.member-info p {
+	overflow: hidden;
 }
 
