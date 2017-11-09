@@ -31,3 +31,7 @@ body {
     width: 780px;
     text-align: justify;
 }
+#WhatWeBring img {
+    float:right;
+    padding:20px;
+}
