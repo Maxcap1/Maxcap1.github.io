@@ -1,5 +1,6 @@
 body {
-	font-family: Baskerville, serif;
+	font-family: Arial, sans-serif;
+	line-height: 1.2em;
 	color: #303030;
 	background-color: #fffcf4; 
 }
@@ -10,7 +11,7 @@ a {
 
 h1 {
 	font-size: 1.5em;
-	margin-bottom: 0;
+	margin-bottom: 0.2em;
 }
 
 img {
