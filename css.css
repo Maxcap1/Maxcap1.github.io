@@ -343,7 +343,7 @@ align-content:center;
 
 .fullbackground{
     overflow:hidden;
-    width:100%px;
+    width:100%;
     height:3000px;
 }
 
