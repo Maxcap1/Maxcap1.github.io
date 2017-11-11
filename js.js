@@ -137,7 +137,7 @@ $(document).ready(function(){
 });
 
 
-
+/*
 $(window).scroll(function() {
   if ($(document).scrollTop() > 50) {
     $('nav').addClass('shrink');
@@ -145,7 +145,7 @@ $(window).scroll(function() {
     $('nav').removeClass('shrink');
   }
 });
-
+*/
 
 $(document).ready(function() {
       var docHeight = $(document).height(),
@@ -158,3 +158,19 @@ $(document).ready(function() {
         $('.scroll-progress').width(scrollPercent + '%');
         });
         });
+
+
+$(document).ready(function(){
+	$('#videoz').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $("#utube");
+
+	    $('html, body').animate({
+	        'scrollTop': $target.offset().top
+	    }, 1700, function () {
+
+	    });
+	});
+}); 
