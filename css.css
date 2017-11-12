@@ -17,7 +17,7 @@ body{
         .fullbackground{
             margin-left:0.084%;
             overflow:hidden;
-            width:100%;
+            width:99.5%;
             height:auto; 
            position:absolute;
             
@@ -772,7 +772,7 @@ body{
              height:70%;
              width:70%;
              padding:5% 0% 0% 7.50%;
-             margin-top:145.5%;
+             margin-top:147.5%;
              margin-left:18.1%;
              position:absolute;
              z-index:100;
@@ -781,7 +781,7 @@ body{
              height:90%;
              width:100%;
              margin-left:-0.5%;
-             margin-top:144.5%;
+             margin-top:145.0%;
              background-color:rgba(0,0,0,0.8);
              position:absolute;
             
@@ -861,8 +861,8 @@ body{
     position:absolute;
     align-content: center;
     border-radius:50%;
-    margin-top:-34.18%;
-    margin-left:70.62%;
+    margin-top:-34.58%;
+    margin-left:71.17%;
     background-color:transparent;
     padding:1.33%;
     width:3.5%;
@@ -1022,8 +1022,8 @@ a.arrowmid{
     font-size:190px;
     margin-top:88.65%;
     text-align:center;
-    padding:5% 0 20% 0;
-    width:100%;
+    padding:5% 1% 19.52% 0;
+    width:99.5%;
     margin-left:-0.5%;
     height:0%;
     background-color:rgba(0,0,0,0.2);
