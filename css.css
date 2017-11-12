@@ -11,8 +11,6 @@
 .maxcap {
     border-radius: 10px;
     background-color: rgba(0,0,0,0.0);
-    border: 0px;
-    padding: 0px;
     opacity:0.8;
     margin-top: -4%;
     margin-left: 1.56%;
@@ -43,7 +41,7 @@
     width: 20%;
     text-align:center;
     color:white;
-    font-size:30px;
+    font-size:140%;
     margin-left:35%;
     margin-top:-15%;
     border: 2px solid #07273E;
@@ -64,7 +62,7 @@
   border-color:#ffffff;
 }
 .description i{
-    margin-left:15px;
+    margin-left:4%;
 }
 
 
@@ -77,15 +75,15 @@
 .get{
     font-family:Saira Extra condensed;
     color: white;
-    font-size:30px;
+    font-size:180%;
     background-color: rgba(7,39,61,0.6);
     width: 15.8%;
-    height: 78%;
+    height: 59.5%;
     border-radius: 10px;
     border: 1px solid #07273E;
     padding: 10px;
     margin-left: 81%;
-    margin-top: -48%;
+    margin-top: -45%;
     position:absolute;
     text-align:center;
     transition: all 900ms ease-in-out;
@@ -111,12 +109,12 @@
 
 
 .getstarty{
-    font-size:25px;
+    font-size:75%;
     color:#000000;
     padding:5px;
     background-color:#ffffff;
     position: relative;
-    margin-top:30px;
+    margin-top:10%;
     border-radius:25px;
     border-color:#f77777;
     border:2px solid #ff7777;
@@ -134,12 +132,12 @@
 /** "Getting Started" CSS **/
 
 .titler{
-    font-size:25px;
+    font-size:75%;
     color:#000000;
     padding:5px;
     background-color:#ffffff;
     position: relative;
-    margin-top:-3px;
+    margin-top:-1%;
     border-radius:25px;
     border-color:#f77777;
     border:2px solid #ff7777;
@@ -204,7 +202,7 @@
     border-radius:10px;
     border: 1px solid #f77777;
     background-color:white;
-    width: 210px;
+    width: 65%;
     position:absolute;
 }
 
@@ -215,7 +213,7 @@
     border-radius:10px;
     border: 1px solid #f77777;
     background-color:white;
-    width:210px;
+    width:70%;
 }
 
 .lock i{
@@ -273,91 +271,7 @@
     height:3000px;
 }
 
-.contactt{
-    color:black;
-    background-color:#ffffff;
-    margin-top:8%;
-    border-radius:60px;
-    opacity:0.7;
-    width:90%;
-    font-size:25px;
-    margin-left:2%;
-    padding:5px;
-    border: 2px solid #f77777;
-    transition: all 700ms ease-in-out;
-}
-.get:hover .contactt{
-    background-color:#07273D;
-    border-color:white;
-    color:white;
-    opacity:0.9;
-}
-.contactt::selection{
-    background-color:#352e7e;
-}
 
-.fa-facebook-square{
-    margin-top:23px;
-}
-.facebook{
-    position:absolute;
-    margin-top:5%;
-    opacity:0.7;
-    align-content:center;
-    padding:0px;
-    background-color:#205E6E;
-    width: 44%;
-    height:11%;
-    border-radius: 10px;
-    border:2px solid #07273D;
-    transition: all 600ms ease-in-out;
-    
-}
-.facebook:hover{
-    opacity:0.9;
-    border:2px solid #ffffff;
-}
-.twitter{
-    
-    margin-left:52%;
-    margin-top:5%;
-    opacity:0.7;
-    align-content:center;
-    padding:0px;
-    background-color:#205E6E;
-    width: 46%;
-    height:11.3%;
-    border-radius: 10px;
-    border:2px solid #07273D;
-    transition: all 600ms ease-in-out;
-}
-.twitter:hover{
-    opacity:0.9;
-    border:2px solid #ffffff;
-}
-.fa-twitter-square{
-    margin-top:-200px;
-    margin-top:23px;
-    
-}
-
-.fa-facebook-square{
-    transition: all 500ms ease-in-out;
-}
-.facebook:hover .fa-facebook-square{
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-    opacity:1.0;
-}
-
-.fa-twitter-square{
-    transition: all 500ms ease-in-out;
-}
-.twitter:hover .fa-twitter-square{
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-    opacity:1.0;
-}
 .fa-check{
     transition: all 500ms ease-in-out;
 }
@@ -388,10 +302,10 @@
     margin-top:-34.18%;
     margin-left:70.62%;
     background-color:transparent;
-    padding:25px;
+    padding:1.33%;
     width:3.5%;
     height:6.8%;
-    font-size:45px;
+    font-size:300%;
     opacity:0.7;
     transition: all 800ms ease-in-out;
     text-decoration:none;
@@ -423,7 +337,7 @@
 	height: 20px;
 	position: relative;
 	width: 20px;
-	margin-top:1550px;
+	margin-top:10305%;
     margin-left:-10px;
 	-webkit-animation: arrowmover 3s infinite; /* Safari 4.0 - 8.0 */
     animation: arrowmover 3s infinite;
@@ -452,7 +366,7 @@ a.arrowright{
 	position: relative;
 	transform: rotate(135deg);
 	width: 20px;
-	margin-top:1570px;
+	margin-top:10440%;
     margin-left:-10px;
 	-webkit-animation: arrowmoverz 3s infinite; /* Safari 4.0 - 8.0 */
     animation: arrowmoverz 3s infinite;
@@ -480,7 +394,7 @@ a.arrowleft{
 	position: relative;
 	transform: rotate(135deg);
 	width: 20px;
-	margin-top:1560px;
+	margin-top:10370%;
     margin-left:-10px;
 	-webkit-animation: arrowmoverzz 3s infinite; /* Safari 4.0 - 8.0 */
     animation: arrowmoverzz 3s infinite;
@@ -915,7 +829,7 @@ li a {
     color:white;
     font-family:Saira Extra condensed;
     font-size:190px;
-    margin-top:1705px;
+    margin-top:89.29%;
     text-align:center;
     padding:5% 0 0 0;
     width:100%;
