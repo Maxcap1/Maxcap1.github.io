@@ -5,8 +5,6 @@ body {
 	background-color: #fffcf4; 
 }
 
-
-
 h1 {
 	font-size: 1.5em;
 	margin-bottom: 0.2em;
@@ -43,8 +41,7 @@ a {
 
 .main {
 	width: 90%;
-	margin-left: 3em;
-	margin-right: 3em;
+	margin: 0 auto;
 }
 
 .items {
@@ -65,10 +62,10 @@ a {
 }
 
 .row1 .member{
-	width: 30%;
+	width: 33%;
 }
 
 .row2 .member{
-	width: 45%;
+	width: 50%;
 }
 
