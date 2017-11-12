@@ -1,1103 +1,5 @@
 
 /** NavBAR Elements and CSS **/
-
-
-/* Change the link color on hover */
-
-
-/** MAXCAP LOGO DIV (NEED TO FIX CRITICAL ERROR) **/
-
-.maxcap {
-    border-radius: 10px;
-    background-color: rgba(0,0,0,0.0);
-    border: 0px;
-    padding: 0px;
-    opacity:0.8;
-    margin-top: -65px;
-    margin-left: 30px;
-    text-align: left;
-    width: 100%;
-    transition: all 500ms ease;
-}
-
-
-.maxcap img{
-    height:90%;
-    width:100%;
-}
-
-.button2 i{
-    margin-left:20px;
-}
-.button1 i{
-    margin-left:20px;
-}
-
-
-
-/** "Unifying Customer and Service" **/
-.fa-handshake-o{
-    transition: all 600ms ease-in-out;
-}
-.description:hover .fa-handshake-o{
-    color:#0DC88E;
-}
-.description{
-    border-radius: 10px;
-    background-color: #07273D;
-    width: 400px;
-    text-align:center;
-    color:white;
-    font-size:30px;
-    margin-left:600px;
-    margin-top:-295px;
-    border: 2px solid #07273E;
-    padding: 10px;
-    position:absolute;
-    transition: all 500ms ease; 
-    overflow:hidden;
-      
-}
-
-.description::selection{
-    background-color:#352e7e;
-}
-
-.description:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  border-color:#ffffff;
-}
-.description i{
-    margin-left:15px;
-}
-
-
-
-
-
-/** MENU BLOCK With 2 buttons and Growth (NEED TO FIX CRITICAL ERROR) **/
-
-
-.get{
-    color: white;
-    font-size:30px;
-    background-color: rgba(7,39,61,0.6);
-    width: 300px;
-    height: 800px;
-    border-radius: 10px;
-    border: 1px solid #07273E;
-    padding: 10px;
-    margin-right: 80%;
-    margin-top: -946px;
-    position:absolute;
-    text-align:center;
-    transition: all 900ms ease-in-out;
-       
-}
-
-
-.get:hover{
-    background-color: rgba(7,39,61,0.95);
-    border-color:#ffffff;
-}
-
-
-
-
-
-/** Button 1 CSS (Explore) **/
-
-
-
-
-.button1{
-    border-color:#ffffff;
-    padding:20px;
-    position: relative;
-    margin-top: 30px;
-    border-radius:25px;
-    border-color:#f77777;
-    background-color:rgba(0,0,0,0.4);
-    transition: all 500ms ease-in-out;
-}
-
-
-.button1:hover{
-    background-color:rgba(0,0,0,0.9);
-}
-
-.button1 >a{
-    transition: all 500ms ease-in-out;
-    text-decoration:none;
-    color: #ffffff;
-    align-content: center;
-}
-
-
-.getstarty{
-    font-size:25px;
-    color:#000000;
-    padding:5px;
-    background-color:#ffffff;
-    position: relative;
-    margin-top:30px;
-    border-radius:25px;
-    border-color:#f77777;
-    border:2px solid #ff7777;
-    opacity:0.7;
-    transition: all 800ms ease;
-}
-
-.get:hover .getstarty{
-    color:#ffffff;
-    background-color: #07273D;
-    border-color:white;
-    opacity:0.8;
-}
-
-/** "Getting Started" CSS **/
-
-.titler{
-    font-size:25px;
-    color:#000000;
-    padding:5px;
-    background-color:#ffffff;
-    position: relative;
-    margin-top:-3px;
-    margin-top:-3px;
-    border-radius:25px;
-    border-color:#f77777;
-    border:2px solid #ff7777;
-    opacity:0.7;
-    transition: all 800ms ease;
-}
-.titler::selection{
-    background-color:#352e7e;
-}
-.get:hover .titler{
-    color:#ffffff;
-    background-color: #07273D;
-    border-color:white;
-    opacity:0.8;
-}
-
-.ul i{
-    margin-left:20px;
-}
-
-
-
-/** Button 2 (Introduction) **/
-
-
-
-.button2{
-    padding:20px;
-    position: relative;
-    margin-top: 40px;
-    border-radius:25px;
-    border-color:#f77777;
-    background-color:rgba(0,0,0,0.5);
-    opacity:0.8;
-    transition: all 500ms ease;
-}
-.button2 > a {
-  position: relative;
-  color: #ffffff;
-align-content:center;
-  text-decoration: none;
-}
-
-.button2:hover{
-    background-color: rgba(0,0,0,0.9);
-    border-color:#ffffff;
-}
-
-
-
-
-/** Testing Block **/
-
-.testingcool{
-    padding:100px;
-    color:white;
-    margin-top:100px;
-    margin-left:-8px;
-    border-radius:10px;
-    background-color: #07273D;
-    font-size:40px;
-    position:relative;
-}
-
-.testingcooler{
-    padding:100px;
-    color:white;
-    margin-top:500px;
-    margin-left:-8px;
-    border-radius:10px;
-    background-color: #07273D;
-    font-size:40px;
-}
-
-
-
-
-/** Navbar logo **/
-
-.logonav {
-    background-color: none;
-    padding: 0px;
-    margin-top: -7px;
-    margin-left: 0px;
-    width: 90px;
-    left:0;
-    transition: all 700ms ease;
-    opacity:0.7;
-    position:fixed;
-    z-index:999999;
-}
-
-.logonav img{
-    height:100%;
-    width:100%;
-}
-.logonav:hover{
-    background-color:none;
-    opacity:0.9;
-}
-
-.get .pword{
-    margin-left: -83px;
-    margin-top:25px;
-    padding: 9px;
-    border-radius:10px;
-    border: 1px solid #f77777;
-    background-color:white;
-    width: 210px;
-    position:absolute;
-}
-
-.get .usern{
-    margin-left: 63px;
-    margin-top: 30px;
-    padding:9px;
-    border-radius:10px;
-    border: 1px solid #f77777;
-    background-color:white;
-    width:210px;
-}
-
-.lock i{
-    font-size:35px;
-    position:absolute;
-    margin-left:-142px;
-    margin-top:25px  
-}
-.circle i{
-   font-size:28px;
-    position:absolute;
-    margin-left:-145px;
-    margin-top:30px   
-}
-
-
-.submitter{
-    border-radius: 10px;
-    padding: 10px 10px 10px 10px;
-    background-color: #000000;
-    margin-top: 85px;
-    margin-left: 64px;
-    width:150px;
-    border: 2px;
-    opacity:0.6;
-    cursor:pointer;
-    transition: all 500ms ease-in-out;
-}
-.submitter:hover{
-    background-color:#205E6E;
-    opacity:0.9;
-    
-}
-.submitter::selection{
-    background-color:#352e7e;
-}
-
-.checkmark i{
-    opacity:0;
-    font-size:30px;
-    position:absolute;
-    margin-left:108px;
-    margin-top:-40px;   
-}
-
-.getstarty::selection{
-    background-color:#352e7e;
-}
-    
-
-.fullbackground{
-    overflow:hidden;
-    width:100%;
-    height:3000px;
-}
-
-.contactt{
-    color:black;
-    background-color:#ffffff;
-    margin-top:30px;
-    border-radius:60px;
-    opacity:0.7;
-    width:290px;
-    font-size:25px;
-    margin-left:-1px;
-    padding:5px;
-    border: 2px solid #f77777;
-    transition: all 700ms ease-in-out;
-}
-.get:hover .contactt{
-    background-color:#07273D;
-    border-color:white;
-    color:white;
-    opacity:0.9;
-}
-.contactt::selection{
-    background-color:#352e7e;
-}
-
-.fa-facebook-square{
-    margin-top:23px;
-}
-.facebook{
-    position:absolute;
-    margin-top:15px;
-    opacity:0.7;
-    align-content:center;
-    padding:0px;
-    background-color:#205E6E;
-    width: 140px;
-    height:80px;
-    border-radius: 10px;
-    border:2px solid #07273D;
-    transition: all 600ms ease-in-out;
-    
-}
-.facebook:hover{
-    opacity:0.9;
-    border:2px solid #ffffff;
-}
-.twitter{
-    
-    margin-left:156px;
-    margin-top:15px;
-    opacity:0.7;
-    align-content:center;
-    padding:0px;
-    background-color:#205E6E;
-    width: 140px;
-    height:80px;
-    border-radius: 10px;
-    border:2px solid #07273D;
-    transition: all 600ms ease-in-out;
-}
-.twitter:hover{
-    opacity:0.9;
-    border:2px solid #ffffff;
-}
-.fa-twitter-square{
-    margin-top:-200px;
-    margin-top:23px;
-    
-}
-
-.fa-facebook-square{
-    transition: all 500ms ease-in-out;
-}
-.facebook:hover .fa-facebook-square{
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-    opacity:1.0;
-}
-
-.fa-twitter-square{
-    transition: all 500ms ease-in-out;
-}
-.twitter:hover .fa-twitter-square{
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-    opacity:1.0;
-}
-.fa-check{
-    transition: all 500ms ease-in-out;
-}
-.submitter:hover .fa-check{
-    color:#0DFF8E;
-    opacity:1.0;
-}
-
-.fa-user-circle-o{
-    transition: all 500ms ease-in-out;
-}
-.usercontainer:hover .fa-user-circle-o{
-    color:#0DFF8E;
-}
-
-.fa-lock{
-    transition: all 500ms ease-in-out;
-}
-.passcontainer:hover .fa-lock{
-    color:#0DFF8E;
-}
-
-.videoplayer{
-    border:3px solid #07273D;
-    position:absolute;
-    align-content: center;
-    border-radius:50%;
-    margin-top:20%;
-    margin-left:87.2%;
-    background-color:transparent;
-    padding:25px;
-    width:65.5px;
-    height:65.5px;
-    font-size:45px;
-    opacity:0.7;
-    transition: all 800ms ease-in-out;
-    text-decoration:none;
-}
-.fa-play{
-    margin-top:10px;
-    margin-left:18px;
-    transition: all 800ms ease-in-out;
-}
-
-.videoplayer:hover{
-    background-color:#CE5451;
-    opacity:0.9;
-    border:3px solid white;
-}
-.videoplayer:hover .fa-play{
-    transform: scale(1.3);
-    color:#ffffff;
-}
-
-
-
-
-.arrowmover{
-	color:white;
-	border-style: solid;
-	border-width: 5px 5px 0 0;
-	content: '';
-	height: 20px;
-	position: relative;
-	width: 20px;
-	margin-top:1550px;
-    margin-left:-10px;
-	-webkit-animation: arrowmover 3s infinite; /* Safari 4.0 - 8.0 */
-    animation: arrowmover 3s infinite;
-	transform: rotate(135deg);
-}
-a.arrowright{
-    position:absolute;
-	animation: fadein 2s ease-in alternate infinite;
-}
-
-@keyframes arrowmover{
-	 0%   {top: 0px;}
-    25%  {top: 60px;}
-    75% {top:0px;}
-    
-}
-
-/*************************************************************/
-
-.arrowmoverz{
-	color:white;
-	border-style: solid;
-	border-width: 5px 5px 0 0;
-	content: '';
-	height: 20px;
-	position: relative;
-	transform: rotate(135deg);
-	width: 20px;
-	margin-top:1570px;
-    margin-left:-10px;
-	-webkit-animation: arrowmoverz 3s infinite; /* Safari 4.0 - 8.0 */
-    animation: arrowmoverz 3s infinite;
-	
-}
-a.arrowleft{
-    position:absolute;
-	animation: fadein 2s ease-in alternate infinite;
-}
-
-@keyframes arrowmoverz{
-	 0%   {top: 0px;}
-    25%  {top: 20px;}
-    75% {top:0px;}
-
-}
-
-
-.arrowmoverzz{
-	color:white;
-	border-style: solid;
-	border-width: 5px 5px 0 0;
-	content: '';
-	height: 20px;
-	position: relative;
-	transform: rotate(135deg);
-	width: 20px;
-	margin-top:1560px;
-    margin-left:-10px;
-	-webkit-animation: arrowmoverzz 3s infinite; /* Safari 4.0 - 8.0 */
-    animation: arrowmoverzz 3s infinite;
-
-}
-a.arrowmid{
-    position:absolute;
-	animation: fadein 2s ease-in alternate infinite;
-}
-
-@keyframes arrowmoverzz{
-	 0%   {top: 0px;}
-    25%  {top: 40px;}
-    75% {top:0px;}
-
-}
-
-@keyframes fadein{
-    from { opacity: 1; }
-    to { opacity: 0.0; }
-}
-
-
-.lmao{
-    border-radius:20px;
-    padding:30px;
-    background-color:rgba(0,0,0,0.0);
-    width:6px;
-    height:40px;
-    margin-top: -3725px;
-    margin-left:785px;
-    transition: all 800ms ease-in-out;
-    
-}
-.lmao:hover{
-    background-color:rgba(0,0,0,0.01);
-}
-.lmao:hover .arrowmoverzz{
-    color:#0DFF8E;
-}
-.lmao:hover .arrowmoverz{
-    color:#0DFF8E;
-}
-.lmao:hover .arrowmover{
-    color:#0DFF8E;
-}
-
-.arrowmover{
-    transition:all 700ms ease-in-out;
-}
-.arrowmoverz{
-    transition:all 700ms ease-in-out;
-}
-.arrowmoverzz{
-    transition:all 700ms ease-in-out;
-}
-
-
-
-.navbar{
-    width:100px;
-    margin-left:-8px;
-    height:30px;
-    position:fixed;
-    opacity:1.0;
-    z-index:99999;
-}
-
-ul {
-    overflow:hidden;
-    list-style-type: none;
-    margin-top:-20px;
-    margin-left:-8px;
-    width: 1877px;
-    height:100px;
-    position:fixed;
-    background-color: rgba(0,0,0,0.7);
-}
-
-li a{
-    position:fixed;
-    opacity:1.0;
-}
-
-.contact{
-    margin-left:1540.9px;
-    transition: all 500ms ease-in-out;
-}
-li a:hover{
-    opacity:1.0;
-    background-color:rgba(0,0,0,0.9);
-    color: #ffffff;
-}
-.home{
-    margin-left:1440px;
-    transition: all 500ms ease-in-out;
-}
-.news{
-    margin-left:1649.7px;
-    transition: all 500ms ease-in-out;
-}
-.team{
-    margin-left:1759px;
-    transition: all 500ms ease-in-out;
-
-}
-
-li a {
-    text-align:center;
-    font-size:27px;
-    display: block;
-    color: #ffffff;
-    padding: 28px 15px;
-    text-decoration: none;
-}
-
-
-
-
-.CT{
-    position:absolute;
-    margin-top:12px;
-    margin-left:1440px;
-    height:2px;
-    width:0px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.homer:hover .CT{
-    background-color:#0DFF8E;
-    height:2px;
-    width:102px;
-    
-}
-
-.CB{
-    position:absolute;
-    margin-top:95px;
-    margin-left:1440px;
-    height:2px;
-    width:0px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.homer:hover .CB{
-    background-color:#0DFF8E;
-    height:2px;
-    width:102px;
-    
-}
-
-.CL{
-    position:absolute;
-    margin-top:4px;
-    margin-left:1440px;
-    height:0px;
-    width:2px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-.homer:hover .CL{
-    background-color:#0DFF8E;
-    width:2px;
-    height:93px;
-}
-
-.CR{
-    position:absolute;
-    margin-top:4px;
-    margin-left:1540px;
-    height:0px;
-    width:3px;
-    
-    background-color: #111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.homer:hover .CR{
-    background-color:#0DFF8E;
-    height:93px;
-    width:2px;
-    
-}
-
-
-
-
-
-.CTT{
-    position:absolute;
-    margin-top:12px;
-    margin-left:1656px;
-    height:2px;
-    width:0px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.newser:hover .CTT{
-    background-color:#0DFF8E;
-    height:2px;
-    width:109px;
-    
-}
-
-.CBB{
-    position:absolute;
-    margin-top:95px;
-    margin-left:1656px;
-    height:2px;
-    width:0px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.newser:hover .CBB{
-    background-color:#0DFF8E;
-    height:2px;
-    width:109px;
-    
-}
-
-.CLL{
-    position:absolute;
-    margin-top:4px;
-    margin-left:1656px;
-    height:0px;
-    width:2px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-.newser:hover .CLL{
-    background-color:#0DFF8E;
-    width:2px;
-    height:93px;
-}
-
-.CRR{
-    position:absolute;
-    margin-top:4px;
-    margin-left:1763px;
-    height:0px;
-    width:3px;
-    
-    background-color: #111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.newser:hover .CRR{
-    background-color:#0DFF8E;
-    height:93px;
-    width:2px;
-    
-}
-
-
-
-
-
-
-.CTTT{
-    position:absolute;
-    margin-top:12px;
-    margin-left:1542px;
-    height:2px;
-    width:0px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.contacter:hover .CTTT{
-    background-color:#0DFF8E;
-    height:2px;
-    width:114px;
-    
-}
-
-.CBBB{
-    position:absolute;
-    margin-top:95px;
-    margin-left:1542px;
-    height:2px;
-    width:0px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.contacter:hover .CBBB{
-    background-color:#0DFF8E;
-    height:2px;
-    width:113.5px;
-    
-}
-
-.CLLL{
-    position:absolute;
-    margin-top:4px;
-    margin-left:1656px;
-    height:0px;
-    width:2px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-.contacter:hover .CLLL{
-    background-color:#0DFF8E;
-    width:2px;
-    height:93px;
-}
-
-.CRRR{
-    position:absolute;
-    margin-top:4px;
-    margin-left:1542px;
-    height:0px;
-    width:3px;
-    
-    background-color: #111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.contacter:hover .CRRR{
-    background-color:#0DFF8E;
-    height:93px;
-    width:2px;
-    
-}
-
-
-
-
-
-
-
-.CTTTT{
-    position:absolute;
-    margin-top:12px;
-    margin-left:1766px;
-    height:2px;
-    width:0px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.teamer:hover .CTTTT{
-    background-color:#0DFF8E;
-    height:2px;
-    width:102.5px;
-    
-}
-
-.CBBBB{
-    position:absolute;
-    margin-top:95px;
-    margin-left:1766px;
-    height:2px;
-    width:0px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.teamer:hover .CBBBB{
-    background-color:#0DFF8E;
-    height:2px;
-    width:102.5px;
-    
-}
-
-.CLLLL{
-    position:absolute;
-    margin-top:4px;
-    margin-left:1765px;
-    height:0px;
-    width:2px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-.teamer:hover .CLLLL{
-    background-color:#0DFF8E;
-    width:2px;
-    height:93px;
-}
-
-.CRRRR{
-    position:absolute;
-    margin-top:4px;
-    margin-left:1868.2px;
-    height:0px;
-    width:3px;
-    
-    background-color: #111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.teamer:hover .CRRRR{
-    background-color:#0DFF8E;
-    height:93px;
-    width:2px;
-    
-}
-
-.about{
-    color:white;
-    font-size:190px;
-    margin-top:1705px;
-    text-align:center;
-    padding:100px 0 0 0;
-    width:100%;
-    margin-left:-8px;
-    height:400px;
-    background-color:rgba(0,0,0,0.2);
-    position:absolute;
-    
-}
-.about::selection{
-    background-color:rgba(255,172,71,0.5);
-}
-
-.fakeslogan::selection{
-    background-color:rgba(255,172,71,0.5);
-}
-
-
-.newcontent::selection{
-    
-    background-color:rgba(255,172,71,0.5);
-}
-
-
-::-webkit-scrollbar {
-    position:absolute;
-    width: 10px;
-    height: 10px;
-
-}
-
-
-::-webkit-scrollbar-track{
-    -webkit-box-shadow: inset 2px 2px 2px 2px rgba(0,0,0,0.3);
-    background-color:rgba(255,255,255,0.1);
-}
-
-
-
-::-webkit-scrollbar-thumb:vertical {
-    height: 50px;
-    background-color:#07273d;
-    border: 0.8px solid #FFFFFF;
-    -webkit-border-radius: 20px;;
-    
-}
-
-.scroll-progress-container {
-  width: 1910px;
-  height: 2px;
-  background-color: white;
-  top: 0px;
-  margin-left:-8px;
-  position: fixed;
-  z-index:100000;
-    
-}
-
-.scroll-progress {
-  width: 0px;
-  height: 5px;
-  background-color: rgba(255,36,79,0.6);
-}
-
-
-
-/*****************************************************/
-
-
-
-
-
-
-/* Animation for underline (in testing)
-/* Remember to fix blue text for getting started
-.button2 > a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
-
-.titler > a {
-  position: relative;
-  color: #000;
-  text-decoration: none;
-}
-
-.titler > a:hover {
-  color: #000;
-}
-
-.titler > a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #000;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-.titler > a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
-=======
-
-/** NavBAR Elements and CSS **/
 @import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
 
 
@@ -1113,7 +15,7 @@ li a {
     padding: 0px;
     opacity:0.8;
     margin-top: -65px;
-    margin-left: 30px;
+    margin-left: 1.56%;
     text-align: left;
     width: 1525px;
     transition: all 500ms ease;
@@ -1121,15 +23,8 @@ li a {
 
 
 .maxcap img{
-    height:1px;
-    width:1px;
-}
-
-.button2 i{
-    margin-left:20px;
-}
-.button1 i{
-    margin-left:20px;
+    height:90%;
+    width:100%;
 }
 
 
@@ -1144,11 +39,12 @@ li a {
 .description{
     border-radius: 10px;
     background-color: #07273D;
+    font-family:Saira Extra condensed;
     width: 400px;
     text-align:center;
     color:white;
     font-size:30px;
-    margin-left:600px;
+    margin-left:35%;
     margin-top:-295px;
     border: 2px solid #07273E;
     padding: 10px;
@@ -1179,6 +75,7 @@ li a {
 
 
 .get{
+    font-family:Saira Extra condensed;
     color: white;
     font-size:30px;
     background-color: rgba(7,39,61,0.6);
@@ -1187,7 +84,7 @@ li a {
     border-radius: 10px;
     border: 1px solid #07273E;
     padding: 10px;
-    margin-left: 1560px;
+    margin-left: 81%;
     margin-top: -946px;
     position:absolute;
     text-align:center;
@@ -1319,10 +216,11 @@ align-content:center;
 /** Testing Block **/
 
 .testingcool{
+    font-family:Saira Extra condensed;
     padding:100px;
     color:white;
     margin-top:100px;
-    margin-left:-8px;
+    margin-left:-0.5%;
     border-radius:10px;
     background-color: #07273D;
     font-size:40px;
@@ -1330,10 +228,11 @@ align-content:center;
 }
 
 .testingcooler{
+    font-family:Saira Extra condensed;
     padding:100px;
     color:white;
     margin-top:500px;
-    margin-left:-8px;
+    margin-left:-0.5%;
     border-radius:10px;
     background-color: #07273D;
     font-size:40px;
@@ -1436,6 +335,7 @@ align-content:center;
     
 
 .fullbackground{
+    margin-left:0.084%;
     overflow:hidden;
     width:100%;
     height:3000px;
@@ -1554,7 +454,7 @@ align-content:center;
     align-content: center;
     border-radius:50%;
     margin-top:-654.0px;
-    margin-left:1349.4px;
+    margin-left:70.62%;
     background-color:transparent;
     padding:25px;
     width:65.5px;
@@ -1679,7 +579,7 @@ a.arrowmid{
     width:6px;
     height:40px;
     margin-top: -3725px;
-    margin-left:785px;
+    margin-left:45%;
     transition: all 800ms ease-in-out;
     
 }
@@ -1710,7 +610,7 @@ a.arrowmid{
 
 .navbar{
     width:100px;
-    margin-left:-8px;
+    margin-left:-0.5%;
     height:30px;
     position:fixed;
     opacity:1.0;
@@ -1718,10 +618,11 @@ a.arrowmid{
 }
 
 ul {
+    font-family:Saira Extra condensed;
     overflow:hidden;
     list-style-type: none;
     margin-top:-20px;
-    margin-left:-8px;
+    margin-left:-0.5%;
     width: 1877px;
     height:100px;
     position:fixed;
@@ -1734,7 +635,7 @@ li a{
 }
 
 .contact{
-    margin-left:1540.9px;
+    margin-left:80.7%;
     transition: all 500ms ease-in-out;
 }
 li a:hover{
@@ -1743,15 +644,15 @@ li a:hover{
     color: #ffffff;
 }
 .home{
-    margin-left:1440px;
+    margin-left:75.4%;
     transition: all 500ms ease-in-out;
 }
 .news{
-    margin-left:1649.7px;
+    margin-left:86.6%;
     transition: all 500ms ease-in-out;
 }
 .team{
-    margin-left:1759px;
+    margin-left:92.4%;
     transition: all 500ms ease-in-out;
 
 }
@@ -1770,8 +671,8 @@ li a {
 
 .CT{
     position:absolute;
-    margin-top:12px;
-    margin-left:1440px;
+    margin-top:14.4px;
+    margin-left:75.1%;
     height:2px;
     width:0px;
     
@@ -1790,7 +691,7 @@ li a {
 .CB{
     position:absolute;
     margin-top:95px;
-    margin-left:1440px;
+    margin-left:75.1%;
     height:2px;
     width:0px;
     
@@ -1809,7 +710,7 @@ li a {
 .CL{
     position:absolute;
     margin-top:4px;
-    margin-left:1440px;
+    margin-left:75.1%;
     height:0px;
     width:2px;
     
@@ -1826,7 +727,7 @@ li a {
 .CR{
     position:absolute;
     margin-top:4px;
-    margin-left:1540px;
+    margin-left:80.4%;
     height:0px;
     width:3px;
     
@@ -1848,8 +749,8 @@ li a {
 
 .CTT{
     position:absolute;
-    margin-top:12px;
-    margin-left:1656px;
+    margin-top:14.4px;
+    margin-left:86.38%;
     height:2px;
     width:0px;
     
@@ -1868,7 +769,7 @@ li a {
 .CBB{
     position:absolute;
     margin-top:95px;
-    margin-left:1656px;
+    margin-left:86.38%;
     height:2px;
     width:0px;
     
@@ -1887,7 +788,7 @@ li a {
 .CLL{
     position:absolute;
     margin-top:4px;
-    margin-left:1656px;
+    margin-left:86.38%;
     height:0px;
     width:2px;
     
@@ -1904,7 +805,7 @@ li a {
 .CRR{
     position:absolute;
     margin-top:4px;
-    margin-left:1763px;
+    margin-left:92.1%;
     height:0px;
     width:3px;
     
@@ -1927,8 +828,8 @@ li a {
 
 .CTTT{
     position:absolute;
-    margin-top:12px;
-    margin-left:1542px;
+    margin-top:14.4px;
+    margin-left:80.4%;
     height:2px;
     width:0px;
     
@@ -1947,7 +848,7 @@ li a {
 .CBBB{
     position:absolute;
     margin-top:95px;
-    margin-left:1542px;
+    margin-left:80.4%;
     height:2px;
     width:0px;
     
@@ -1966,7 +867,7 @@ li a {
 .CLLL{
     position:absolute;
     margin-top:4px;
-    margin-left:1656px;
+    margin-left:80.4%;
     height:0px;
     width:2px;
     
@@ -1983,7 +884,7 @@ li a {
 .CRRR{
     position:absolute;
     margin-top:4px;
-    margin-left:1542px;
+    margin-left:86.38%;
     height:0px;
     width:3px;
     
@@ -2007,8 +908,8 @@ li a {
 
 .CTTTT{
     position:absolute;
-    margin-top:12px;
-    margin-left:1766px;
+    margin-top:14.4px;
+    margin-left:92.1%;
     height:2px;
     width:0px;
     
@@ -2020,14 +921,14 @@ li a {
 .teamer:hover .CTTTT{
     background-color:#0DFF8E;
     height:2px;
-    width:102.5px;
+    width:106.5px;
     
 }
 
 .CBBBB{
     position:absolute;
     margin-top:95px;
-    margin-left:1766px;
+    margin-left:92.1%;
     height:2px;
     width:0px;
     
@@ -2039,14 +940,14 @@ li a {
 .teamer:hover .CBBBB{
     background-color:#0DFF8E;
     height:2px;
-    width:102.5px;
+    width:106.5px;
     
 }
 
 .CLLLL{
     position:absolute;
     margin-top:4px;
-    margin-left:1765px;
+    margin-left:92.1%;
     height:0px;
     width:2px;
     
@@ -2063,7 +964,7 @@ li a {
 .CRRRR{
     position:absolute;
     margin-top:4px;
-    margin-left:1868.2px;
+    margin-left:97.70%;
     height:0px;
     width:3px;
     
@@ -2081,12 +982,13 @@ li a {
 
 .about{
     color:white;
+    font-family:Saira Extra condensed;
     font-size:190px;
     margin-top:1705px;
     text-align:center;
     padding:100px 0 0 0;
     width:100%;
-    margin-left:-8px;
+    margin-left:-0.5%;
     height:400px;
     background-color:rgba(0,0,0,0.2);
     position:absolute;
@@ -2135,7 +1037,7 @@ li a {
   height: 2px;
   background-color: white;
   top: 0px;
-  margin-left:-8px;
+  margin-left:-0.5%;
   position: fixed;
   z-index:100000;
     
@@ -2194,4 +1096,3 @@ li a {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
->>>>>>> parent of 888a116... Update css.css
