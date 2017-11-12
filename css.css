@@ -8,6 +8,272 @@
 
 /** MAXCAP LOGO DIV (NEED TO FIX CRITICAL ERROR) **/
 
+body{
+            background-repeat: no-repeat;
+            background-image:url(Parallax.jpg);
+            background-attachment: fixed;
+            background-size: 1920px 1080px;
+        }
+         .testing{
+             height:102.57%;
+             width:100%;
+             background-color:rgba(0,0,0,0.5);
+             margin-top:36.9%;
+             z-index:-100;
+             margin-left:-0.5%;
+             position:absolute;
+         }
+         
+         input[type=text]:focus{
+             outline:none;
+         }
+         input[type=password]:focus{
+             outline:none;
+         }
+         
+         .contentabout{
+             background-color:rgba(255,255,255,0.9);
+             height:134%;
+             width:100%;
+             margin-left:-0.5%;
+             margin-top:115.3%;
+             position:absolute;
+                
+         }
+         .fakeslogan{
+             margin-top:121.5%;
+             position:absolute;
+             font-size:30px;
+             color:black;
+             font-family:Saira Extra condensed;
+             width:100%;
+             margin-left:-0.5%;
+             height:20%;
+         }
+         .slogancontainer{
+             text-align:center;
+         }
+         .newcontent{
+             margin-top:125%;
+             position:absolute;
+             font-size:120%;
+             color:black;
+             font-family:Saira Extra condensed;
+             width:100%;
+             margin-left:-0.5%;
+             height:20%;
+             color:#454850;
+         }
+         
+         
+         .methodtitled{
+             font-family:Saira Extra condensed;
+             font-size:180%;
+             color:black;
+             margin-left:47.9%;
+             margin-top:154%;
+             z-index:100;
+             position:absolute;
+             
+         }
+         .stepone{
+             font-family:Saira Extra condensed;
+             
+             height:20%;
+             width:20%;
+             color:black;
+             margin-top:158.0%;
+             z-index:100;
+             margin-left:8%;
+             position:absolute;
+            
+            
+         }
+         
+         .stepone .steponetxt{
+             margin-left:34.5%;
+             color:#000000;
+             font-size:140%;
+         }
+         .steptwo{
+             font-family:Saira Extra condensed;
+             font-size:20px;
+             height:20%;
+             width:20%;
+             color:black;
+             margin-top:157%;
+             z-index:100;
+             margin-left:40%;
+             position:absolute;
+
+         }
+         .steptwo .steptwotxt{
+             margin-top:12%;
+             margin-left:40.5%;
+             color:#000000;
+             font-size:120%;
+         }
+         .stepthree{
+             font-family:Saira Extra condensed;
+             font-size:30px;
+             height:25%;
+             width:20%;
+             color:black;
+             margin-top:158%;
+             z-index:100;
+             margin-left:70%;
+             position:absolute;
+             
+             
+         }
+         .stepthree .stepthreetxt{
+             margin-left:40.5%;
+             color:#000000;
+             font-size:80%;
+             margin-top:7%;
+         }
+         .stepone .fa-arrow-circle-o-right{
+             color:black;
+             font-size:300%;
+             margin-left:125%;
+             margin-top:28%;
+         }
+         .steptwo .fa-arrow-circle-o-right{
+             color:black;
+             font-size:240%;
+             margin-left:123%;
+             margin-top:28.5%;
+         }
+         .stepone .first{
+             margin-top:0px;
+             color:#454850;
+             font-size:20px;
+             margin-left:10px;
+             text-align:center;
+         }
+         .steptwo .second{
+             margin-top:-3%;
+             color:#454850;
+             font-size:20px;
+             margin-left:10px;
+             text-align:center;
+         }
+       
+         .stepthree .third{
+             margin-top:44%;
+             color:#454850;
+             font-size:20px;
+             margin-left:10px;
+             text-align:center;
+         }
+         .fa-sitemap{
+             
+             color:#00b088;
+             font-size:50px;
+             margin-left:45%;
+             margin-top:35%;
+             position:absolute;
+         }
+         .fa-mobile{
+             color:#00b088;
+             
+             margin-left:80%;
+             margin-top:164%;
+             position:absolute;
+         }
+         .fa-cogs{
+             color:#00b088;
+             margin-left:17.4%;
+             margin-top:164%;
+             position:absolute;
+             
+         }
+.fa-sitemap{
+    margin-left:49.2%;
+    margin-top: 164%;
+    position:absolute;
+}
+         .youtube{
+             padding:5% 0% 0% 7.50%;
+             margin-top:185%;
+             margin-left:18.1%;
+             position:absolute;
+             z-index:100;
+         }
+         .videocontainer{
+             height:90%;
+             width:100%;
+             margin-left:-0.5%;
+             margin-top:182.5%;
+             background-color:rgba(0,0,0,0.8);
+             position:absolute;
+            
+         }
+         .caseyli img{
+          position:absolute;
+          margin-top:133%;
+          margin-left:23%;
+          height:27%;
+         }
+         .caseyli .caseytext{
+             font-family:Saira extra condensed;
+             font-size:20px;
+             position:absolute;
+             margin-left:38%;
+             margin-top:136.5%;
+         }
+         
+         .caseysign{
+             font-family:Saira extra condensed;
+             position:absolute;
+             
+             margin-top:142.1%;
+             margin-left:49.7%;
+         }
+         .blackline{
+             z-index:100;
+             margin-top:149.5%;
+             position:absolute;
+             height:5px;
+             background-color:black;
+             width:100%;
+             margin-left:-0.5%;
+             
+         }
+         .verticalone{
+             margin-top:125.9%;
+             background-color:black;
+             width:0.3%;
+             height:7.2%;
+             margin-left:29%;
+             position:absolute;
+         }
+         .horizontalone{
+             margin-top:129.6%;
+             background-color:black;
+             width:3.8%;
+             height:0.5%;
+             margin-left:29%;
+             position:absolute;
+         }
+         .verticaltwo{
+             margin-top:119.35%;
+             background-color:black;
+             width:0.3%;
+             height:7%;
+             margin-left:69.2%;
+             position:absolute;
+         }
+         .horizontaltwo{
+             margin-top:119.35%;
+             background-color:black;
+             width:3.8%;
+             height:0.6%;
+             margin-left:65.5%;
+             position:absolute;
+         }
+
+
 .maxcap {
     border-radius: 10px;
     background-color: rgba(0,0,0,0.0);
@@ -35,7 +301,7 @@
     color:#0DC88E;
 }
 .description{
-    border-radius: 10px;
+    border-radius: 3%;
     background-color: #07273D;
     font-family:Saira Extra condensed;
     width: 20%;
