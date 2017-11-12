@@ -40,7 +40,7 @@
     border-radius: 10px;
     background-color: #07273D;
     font-family:Saira Extra condensed;
-    width: 400px;
+    width: 20%;
     text-align:center;
     color:white;
     font-size:30px;
@@ -79,8 +79,8 @@
     color: white;
     font-size:30px;
     background-color: rgba(7,39,61,0.6);
-    width: 300px;
-    height: 800px;
+    width: 15.8%;
+    height: 78%;
     border-radius: 10px;
     border: 1px solid #07273E;
     padding: 10px;
@@ -107,28 +107,7 @@
 
 
 
-.button1{
-    border-color:#ffffff;
-    padding:20px;
-    position: relative;
-    margin-top: 30px;
-    border-radius:25px;
-    border-color:#f77777;
-    background-color:rgba(0,0,0,0.4);
-    transition: all 500ms ease-in-out;
-}
 
-
-.button1:hover{
-    background-color:rgba(0,0,0,0.9);
-}
-
-.button1 >a{
-    transition: all 500ms ease-in-out;
-    text-decoration:none;
-    color: #ffffff;
-    align-content: center;
-}
 
 
 .getstarty{
@@ -161,7 +140,6 @@
     background-color:#ffffff;
     position: relative;
     margin-top:-3px;
-    margin-top:-3px;
     border-radius:25px;
     border-color:#f77777;
     border:2px solid #ff7777;
@@ -185,55 +163,12 @@
 
 
 
-.button2{
-    padding:20px;
-    position: relative;
-    margin-top: 40px;
-    border-radius:25px;
-    border-color:#f77777;
-    background-color:rgba(0,0,0,0.5);
-    opacity:0.8;
-    transition: all 500ms ease;
-}
-.button2 > a {
-  position: relative;
-  color: #ffffff;
-align-content:center;
-  text-decoration: none;
-}
-
-.button2:hover{
-    background-color: rgba(0,0,0,0.9);
-    border-color:#ffffff;
-}
 
 
 
 
 /** Testing Block **/
 
-.testingcool{
-    font-family:Saira Extra condensed;
-    padding:100px;
-    color:white;
-    margin-top:100px;
-    margin-left:-0.5%;
-    border-radius:10px;
-    background-color: #07273D;
-    font-size:40px;
-    position:relative;
-}
-
-.testingcooler{
-    font-family:Saira Extra condensed;
-    padding:100px;
-    color:white;
-    margin-top:500px;
-    margin-left:-0.5%;
-    border-radius:10px;
-    background-color: #07273D;
-    font-size:40px;
-}
 
 
 
@@ -245,7 +180,7 @@ align-content:center;
     padding: 0px;
     margin-top: -7px;
     margin-left: 0px;
-    width: 90px;
+    width: 6%;
     left:0;
     transition: all 700ms ease;
     opacity:0.7;
@@ -450,12 +385,12 @@ align-content:center;
     position:absolute;
     align-content: center;
     border-radius:50%;
-    margin-top:-653.0px;
+    margin-top:-34.18%;
     margin-left:70.62%;
     background-color:transparent;
     padding:25px;
-    width:65.5px;
-    height:65.5px;
+    width:3.5%;
+    height:6.8%;
     font-size:45px;
     opacity:0.7;
     transition: all 800ms ease-in-out;
@@ -606,11 +541,10 @@ a.arrowmid{
 
 
 .navbar{
-    width:100px;
     margin-left:-0.5%;
-    height:30px;
+
     position:fixed;
-    opacity:1.0;
+
     z-index:99999;
 }
 
@@ -621,7 +555,7 @@ ul {
     margin-top:-20px;
     margin-left:-2.229%;
     width: 100%;
-    height:100px;
+    height:10.3%;
     position:fixed;
     background-color: rgba(0,0,0,0.7);
 }
@@ -632,7 +566,7 @@ li a{
 }
 
 .contact{
-    margin-left:80.7%;
+    margin-left:82.1%;
     transition: all 500ms ease-in-out;
 }
 li a:hover{
@@ -641,15 +575,15 @@ li a:hover{
     color: #ffffff;
 }
 .home{
-    margin-left:75.4%;
+    margin-left:76.8%;
     transition: all 500ms ease-in-out;
 }
 .news{
-    margin-left:86.6%;
+    margin-left:87.9%;
     transition: all 500ms ease-in-out;
 }
 .team{
-    margin-left:92.4%;
+    margin-left:93.7%;
     transition: all 500ms ease-in-out;
 
 }
@@ -659,7 +593,7 @@ li a {
     font-size:27px;
     display: block;
     color: #ffffff;
-    padding: 28px 15px;
+    padding: 1.5% 0.8%;
     text-decoration: none;
 }
 
@@ -681,7 +615,7 @@ li a {
 .homer:hover .CT{
     background-color:#0DFF8E;
     height:2px;
-    width:102px;
+    width:103px;
     
 }
 
@@ -700,7 +634,7 @@ li a {
 .homer:hover .CB{
     background-color:#0DFF8E;
     height:2px;
-    width:102px;
+    width:103px;
     
 }
 
@@ -759,7 +693,7 @@ li a {
 .newser:hover .CTT{
     background-color:#0DFF8E;
     height:2px;
-    width:109px;
+    width:110px;
     
 }
 
@@ -778,7 +712,7 @@ li a {
 .newser:hover .CBB{
     background-color:#0DFF8E;
     height:2px;
-    width:109px;
+    width:110px;
     
 }
 
@@ -838,7 +772,7 @@ li a {
 .contacter:hover .CTTT{
     background-color:#0DFF8E;
     height:2px;
-    width:114px;
+    width:116.5px;
     
 }
 
@@ -857,7 +791,7 @@ li a {
 .contacter:hover .CBBB{
     background-color:#0DFF8E;
     height:2px;
-    width:113.5px;
+    width:116.5px;
     
 }
 
@@ -918,7 +852,7 @@ li a {
 .teamer:hover .CTTTT{
     background-color:#0DFF8E;
     height:2px;
-    width:106.5px;
+    width:109.5px;
     
 }
 
@@ -937,7 +871,7 @@ li a {
 .teamer:hover .CBBBB{
     background-color:#0DFF8E;
     height:2px;
-    width:106.5px;
+    width:109.5px;
     
 }
 
