@@ -1,13 +1,12 @@
 body {
-	font-family: Arial, sans-serif;
-	line-height: 1.2em;
+	font-family: sans-serif;
 	color: #303030;
 	background-color: #fffcf4; 
 }
 
 h1 {
 	font-size: 1.5em;
-	margin-bottom: 0.2em;
+	text-align: center;
 }
 
 p {
