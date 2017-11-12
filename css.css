@@ -132,37 +132,27 @@ body{
              font-size:80%;
              margin-top:7%;
          }
-         .stepone .fa-arrow-circle-o-right{
-             color:black;
-             font-size:300%;
-             margin-left:125%;
-             margin-top:28%;
-         }
-         .steptwo .fa-arrow-circle-o-right{
-             color:black;
-             font-size:240%;
-             margin-left:123%;
-             margin-top:28.5%;
-         }
+        
+         
          .stepone .first{
              margin-top:0px;
              color:#454850;
-             font-size:20px;
+             font-size:120%;
              margin-left:10px;
              text-align:center;
          }
          .steptwo .second{
              margin-top:-3%;
              color:#454850;
-             font-size:20px;
+             font-size:95%;
              margin-left:10px;
              text-align:center;
          }
        
          .stepthree .third{
-             margin-top:44%;
+             margin-top:43%;
              color:#454850;
-             font-size:20px;
+             font-size:66%;
              margin-left:10px;
              text-align:center;
          }
@@ -188,6 +178,12 @@ body{
              position:absolute;
              
          }
+.fa-arrow-circle-o-right{
+    color:black;
+    margin-left:32.6%;
+    margin-top:164%;
+    position:absolute;
+}
 .fa-sitemap{
     margin-left:49.2%;
     margin-top: 164%;
@@ -734,7 +730,7 @@ ul {
     font-family:Saira Extra condensed;
     overflow:hidden;
     list-style-type: none;
-    margin-top:-20px;
+    margin-top:-1.05%;
     margin-left:-2.229%;
     width: 100%;
     height:10.3%;
@@ -761,11 +757,11 @@ li a:hover{
     transition: all 500ms ease-in-out;
 }
 .news{
-    margin-left:87.9%;
+    margin-left:88.5%;
     transition: all 500ms ease-in-out;
 }
 .team{
-    margin-left:93.7%;
+    margin-left:94.2%;
     transition: all 500ms ease-in-out;
 
 }
@@ -775,7 +771,7 @@ li a {
     font-size:170%;
     display: block;
     color: #ffffff;
-    padding: 1.5% 0.8%;
+    padding: 1.5% 1.4%;
     text-decoration: none;
 }
 
