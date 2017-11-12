@@ -14,7 +14,7 @@
     border: 0px;
     padding: 0px;
     opacity:0.8;
-    margin-top: -65px;
+    margin-top: -4%;
     margin-left: 1.56%;
     text-align: left;
     width: 80.5%;
@@ -45,9 +45,9 @@
     color:white;
     font-size:30px;
     margin-left:35%;
-    margin-top:-295px;
+    margin-top:-15%;
     border: 2px solid #07273E;
-    padding: 10px;
+    padding: 0.7%;
     position:absolute;
     transition: all 500ms ease; 
     overflow:hidden;
@@ -85,7 +85,7 @@
     border: 1px solid #07273E;
     padding: 10px;
     margin-left: 81%;
-    margin-top: -946px;
+    margin-top: -48%;
     position:absolute;
     text-align:center;
     transition: all 900ms ease-in-out;
@@ -178,7 +178,7 @@
 .logonav {
     background-color: none;
     padding: 0px;
-    margin-top: -40px;
+    margin-top: -7px;
     margin-left: 0px;
     width: 6%;
     left:0;
@@ -198,7 +198,7 @@
 }
 
 .get .pword{
-    margin-left: -83px;
+    margin-left: -25%;
     margin-top:25px;
     padding: 9px;
     border-radius:10px;
@@ -209,8 +209,8 @@
 }
 
 .get .usern{
-    margin-left: 63px;
-    margin-top: 30px;
+    margin-left: 22%;
+    margin-top: 10%;
     padding:9px;
     border-radius:10px;
     border: 1px solid #f77777;
@@ -221,13 +221,13 @@
 .lock i{
     font-size:35px;
     position:absolute;
-    margin-left:-142px;
+    margin-left:-44%;
     margin-top:25px  
 }
 .circle i{
    font-size:28px;
     position:absolute;
-    margin-left:-145px;
+    margin-left:-44%;
     margin-top:30px   
 }
 
@@ -238,7 +238,7 @@
     background-color: #000000;
     margin-top: 85px;
     margin-left: 64px;
-    width:150px;
+    width:50%;
     border: 2px;
     opacity:0.6;
     cursor:pointer;
@@ -276,12 +276,12 @@
 .contactt{
     color:black;
     background-color:#ffffff;
-    margin-top:30px;
+    margin-top:8%;
     border-radius:60px;
     opacity:0.7;
-    width:290px;
+    width:90%;
     font-size:25px;
-    margin-left:-1px;
+    margin-left:2%;
     padding:5px;
     border: 2px solid #f77777;
     transition: all 700ms ease-in-out;
@@ -301,13 +301,13 @@
 }
 .facebook{
     position:absolute;
-    margin-top:15px;
+    margin-top:5%;
     opacity:0.7;
     align-content:center;
     padding:0px;
     background-color:#205E6E;
-    width: 140px;
-    height:80px;
+    width: 44%;
+    height:11%;
     border-radius: 10px;
     border:2px solid #07273D;
     transition: all 600ms ease-in-out;
@@ -319,14 +319,14 @@
 }
 .twitter{
     
-    margin-left:156px;
-    margin-top:15px;
+    margin-left:52%;
+    margin-top:5%;
     opacity:0.7;
     align-content:center;
     padding:0px;
     background-color:#205E6E;
-    width: 140px;
-    height:80px;
+    width: 46%;
+    height:11.3%;
     border-radius: 10px;
     border:2px solid #07273D;
     transition: all 600ms ease-in-out;
@@ -590,7 +590,7 @@ li a:hover{
 
 li a {
     text-align:center;
-    font-size:27px;
+    font-size:170%;
     display: block;
     color: #ffffff;
     padding: 1.5% 0.8%;
@@ -917,10 +917,10 @@ li a {
     font-size:190px;
     margin-top:1705px;
     text-align:center;
-    padding:100px 0 0 0;
+    padding:5% 0 0 0;
     width:100%;
     margin-left:-0.5%;
-    height:400px;
+    height:42%;
     background-color:rgba(0,0,0,0.2);
     position:absolute;
     
