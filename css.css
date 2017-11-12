@@ -1,12 +1,8 @@
 
-/** NavBAR Elements and CSS **/
+/** Import Google fonts --> Using Saira extra condensed **/
 @import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
 
-
-/* Change the link color on hover */
-
-
-/** MAXCAP LOGO DIV (NEED TO FIX CRITICAL ERROR) **/
+/** General body styling **/
 
 body{
             background-repeat: no-repeat;
@@ -14,11 +10,593 @@ body{
             background-attachment: fixed;
             background-size: 1920px 1080px;
         }
+
+
+/** Landing Page CSS **/ 
+
+        .fullbackground{
+            margin-left:0.084%;
+            overflow:hidden;
+            width:100%;
+            height:auto; 
+            margin-top:0%;
+        }
+
+            .logonav {
+                background-color: none;
+                padding: 0px;
+                margin-top: -7px;
+                margin-left: 0px;
+                width: 6%;
+                left:0;
+                transition: all 700ms ease;
+                opacity:0.7;
+                position:fixed;
+                z-index:999999;
+            }
+            .logonav img{
+                height:100%;
+                width:100%;
+            }
+            .logonav:hover{
+                background-color:none;
+                opacity:0.9;
+            }
+
+
+/** Navbar design, and hover elements (CT/CB/CR/CL Are all hover animation divs) **/
+                .navbar{
+                    margin-left:-0.5%;
+                    position:fixed;
+                    z-index:99999;
+                }
+
+                    ul {
+                        font-family:Saira Extra condensed;
+                        overflow:hidden;
+                        list-style-type: none;
+                        margin-top:-1.05%;
+                        margin-left:-2.229%;
+                        width: 100%;
+                        height:10.3%;
+                        position:fixed;
+                        background-color: rgba(0,0,0,0.7);
+                    }
+
+                    li a{
+                        position:fixed;
+                        opacity:1.0;
+                    }
+
+                    .contact{
+                        margin-left:82.1%;
+                        transition: all 500ms ease-in-out;
+                    }
+                    li a:hover{
+                        opacity:1.0;
+                        background-color:rgba(0,0,0,0.9);
+                        color: #ffffff;
+                    }
+                    .home{
+                        margin-left:76.8%;
+                        transition: all 500ms ease-in-out;
+                    }
+                    .news{
+                        margin-left:88.5%;
+                        transition: all 500ms ease-in-out;
+                    }
+                    .team{
+                        margin-left:94.2%;
+                        transition: all 500ms ease-in-out;
+                    }
+
+                    li a {
+                        text-align:center;
+                        font-size:170%;
+                        display: block;
+                        color: #ffffff;
+                        padding: 1.5% 1.4%;
+                        text-decoration: none;
+                    }
+
+
+                    .CT{
+                        position:absolute;
+                        margin-top:14.4px;
+                        margin-left:75.1%;
+                        height:2px;
+                        width:0px;
+                        background-color:#111111;
+                        transition: all 500ms ease-in-out;
+                        transition-delay:0.2s;
+                    }
+
+                    .homer:hover .CT{
+                        background-color:#0DFF8E;
+                        height:2px;
+                        width:103px;
+                    }
+
+                    .CB{
+                        position:absolute;
+                        margin-top:95px;
+                        margin-left:75.1%;
+                        height:2px;
+                        width:0px;
+                        background-color:#111111;
+                        transition: all 500ms ease-in-out;
+                        transition-delay:0.2s;
+                    }
+
+                    .homer:hover .CB{
+                        background-color:#0DFF8E;
+                        height:2px;
+                        width:103px;
+                    }
+
+                    .CL{
+                        position:absolute;
+                        margin-top:4px;
+                        margin-left:75.1%;
+                        height:0px;
+                        width:2px;
+                        background-color:#111111;
+                        transition: all 500ms ease-in-out;
+                        transition-delay:0.2s;
+                    }
+                    .homer:hover .CL{
+                        background-color:#0DFF8E;
+                        width:2px;
+                        height:93px;
+                    }
+
+                    .CR{
+                        position:absolute;
+                        margin-top:4px;
+                        margin-left:80.4%;
+                        height:0px;
+                        width:3px;
+                        background-color: #111111;
+                        transition: all 500ms ease-in-out;
+                        transition-delay:0.2s;
+                    }
+
+                    .homer:hover .CR{
+                        background-color:#0DFF8E;
+                        height:93px;
+                        width:2px;
+                    }
+
+
+                    .CTT{
+                        position:absolute;
+                        margin-top:14.4px;
+                        margin-left:86.38%;
+                        height:2px;
+                        width:0px;
+                        background-color:#111111;
+                        transition: all 500ms ease-in-out;
+                        transition-delay:0.2s;
+                    }
+
+                    .newser:hover .CTT{
+                        background-color:#0DFF8E;
+                        height:2px;
+                        width:110px;
+                    }
+
+                    .CBB{
+                        position:absolute;
+                        margin-top:95px;
+                        margin-left:86.38%;
+                        height:2px;
+                        width:0px;
+                        background-color:#111111;
+                        transition: all 500ms ease-in-out;
+                        transition-delay:0.2s;
+                    }
+
+                    .newser:hover .CBB{
+                        background-color:#0DFF8E;
+                        height:2px;
+                        width:110px;
+                    }
+
+                    .CLL{
+                        position:absolute;
+                        margin-top:4px;
+                        margin-left:86.38%;
+                        height:0px;
+                        width:2px;
+                        background-color:#111111;
+                        transition: all 500ms ease-in-out;
+                        transition-delay:0.2s;
+                    }
+                    .newser:hover .CLL{
+                        background-color:#0DFF8E;
+                        width:2px;
+                        height:93px;
+                    }
+
+                    .CRR{
+                        position:absolute;
+                        margin-top:4px;
+                        margin-left:92.1%;
+                        height:0px;
+                        width:3px;
+                        background-color: #111111;
+                        transition: all 500ms ease-in-out;
+                        transition-delay:0.2s;
+                    }
+
+                    .newser:hover .CRR{
+                        background-color:#0DFF8E;
+                        height:93px;
+                        width:2px;
+                    }
+
+                    .CTTT{
+                        position:absolute;
+                        margin-top:14.4px;
+                        margin-left:80.4%;
+                        height:2px;
+                        width:0px;
+                        background-color:#111111;
+                        transition: all 500ms ease-in-out;
+                        transition-delay:0.2s;
+                    }
+
+                    .contacter:hover .CTTT{
+                        background-color:#0DFF8E;
+                        height:2px;
+                        width:116.5px;
+                    }
+
+                    .CBBB{
+                        position:absolute;
+                        margin-top:95px;
+                        margin-left:80.4%;
+                        height:2px;
+                        width:0px;
+                        background-color:#111111;
+                        transition: all 500ms ease-in-out;
+                        transition-delay:0.2s;
+                    }
+
+                    .contacter:hover .CBBB{
+                        background-color:#0DFF8E;
+                        height:2px;
+                        width:116.5px;
+                    }
+
+                    .CLLL{
+                        position:absolute;
+                        margin-top:4px;
+                        margin-left:80.4%;
+                        height:0px;
+                        width:2px;
+                        background-color:#111111;
+                        transition: all 500ms ease-in-out;
+                        transition-delay:0.2s;
+                    }
+                    .contacter:hover .CLLL{
+                        background-color:#0DFF8E;
+                        width:2px;
+                        height:93px;
+                    }
+
+                    .CRRR{
+                        position:absolute;
+                        margin-top:4px;
+                        margin-left:86.38%;
+                        height:0px;
+                        width:3px;
+                        background-color: #111111;
+                        transition: all 500ms ease-in-out;
+                        transition-delay:0.2s;
+                    }
+
+                    .contacter:hover .CRRR{
+                        background-color:#0DFF8E;
+                        height:93px;
+                        width:2px;
+                    }
+
+                    .CTTTT{
+                        position:absolute;
+                        margin-top:14.4px;
+                        margin-left:92.1%;
+                        height:2px;
+                        width:0px;
+                        background-color:#111111;
+                        transition: all 500ms ease-in-out;
+                        transition-delay:0.2s;
+                    }
+
+                    .teamer:hover .CTTTT{
+                        background-color:#0DFF8E;
+                        height:2px;
+                        width:109.5px;
+                    }
+
+                    .CBBBB{
+                        position:absolute;
+                        margin-top:95px;
+                        margin-left:92.1%;
+                        height:2px;
+                        width:0px;
+                        background-color:#111111;
+                        transition: all 500ms ease-in-out;
+                        transition-delay:0.2s;
+                    }
+
+                    .teamer:hover .CBBBB{
+                        background-color:#0DFF8E;
+                        height:2px;
+                        width:109.5px;
+                    }
+
+                    .CLLLL{
+                        position:absolute;
+                        margin-top:4px;
+                        margin-left:92.1%;
+                        height:0px;
+                        width:2px;
+                        background-color:#111111;
+                        transition: all 500ms ease-in-out;
+                        transition-delay:0.2s;
+                    }
+                    .teamer:hover .CLLLL{
+                        background-color:#0DFF8E;
+                        width:2px;
+                        height:93px;
+                    }
+
+                    .CRRRR{
+                        position:absolute;
+                        margin-top:4px;
+                        margin-left:97.70%;
+                        height:0px;
+                        width:3px;
+                        background-color: #111111;
+                        transition: all 500ms ease-in-out;
+                        transition-delay:0.2s;
+                    }
+
+                    .teamer:hover .CRRRR{
+                        background-color:#0DFF8E;
+                        height:93px;
+                        width:2px;
+                    }
+
+/** Maxcap logo container for the landing page **/
+        .maxcap {
+            border-radius: 10px;
+            background-color: rgba(0,0,0,0.0);
+            opacity:0.8;
+            margin-top: -4%;
+            margin-left: 1.56%;
+            text-align: left;
+            width: 80.5%;
+            transition: all 500ms ease;
+        }
+
+            .maxcap img{
+                height:90%;
+                width:100%;
+            }
+
+
+/** "Unifying Customer and Service" **/
+            .fa-handshake-o{
+                transition: all 600ms ease-in-out;
+            }
+            .description:hover .fa-handshake-o{
+                color:#0DC88E;
+            }
+            .description{
+                border-radius: 3%;
+                background-color: #07273D;
+                font-family:Saira Extra condensed;
+                width: 20%;
+                text-align:center;
+                color:white;
+                font-size:140%;
+                margin-left:35%;
+                margin-top:-15%;
+                border: 2px solid #07273E;
+                padding: 0.7%;
+                position:absolute;
+                transition: all 500ms ease; 
+                overflow:hidden;
+
+            }
+
+            .description::selection{
+                background-color:rgba(255,172,71,0.5);
+            }
+
+/** Not all animations will be described from here on, however this is a simple hover --> growth animation **/
+            .description:hover {
+              -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+              border-color:#ffffff;
+            }
+            .description i{
+                margin-left:4%;
+            }
+
+/** Login Menu and Main menu features **/
+            .get{
+                font-family:Saira Extra condensed;
+                color: white;
+                font-size:180%;
+                background-color: rgba(7,39,61,0.6);
+                width: 15.8%;
+                height: 59.5%;
+                border-radius: 10px;
+                border: 1px solid #07273E;
+                padding: 10px;
+                margin-left: 81%;
+                margin-top: -45%;
+                position:absolute;
+                text-align:center;
+                transition: all 900ms ease-in-out;
+
+            }
+
+            .get:hover{
+                background-color: rgba(7,39,61,0.95);
+                border-color:#ffffff;
+            }
+
+
+                    .getstarty{
+                        font-size:75%;
+                        color:#000000;
+                        padding:5px;
+                        background-color:#ffffff;
+                        position: relative;
+                        margin-top:10%;
+                        border-radius:25px;
+                        border-color:#f77777;
+                        border:2px solid #ff7777;
+                        opacity:0.7;
+                        transition: all 800ms ease;
+                    }
+
+                    .get:hover .getstarty{
+                        color:#ffffff;
+                        background-color: #07273D;
+                        border-color:white;
+                        opacity:0.8;
+                    }
+
+                    .getstarty::selection{
+                        background-color:rgba(255,172,71,0.5);
+                    }
+
+/** "Getting Started" CSS **/
+
+                        .titler{
+                            font-size:75%;
+                            color:#000000;
+                            padding:5px;
+                            background-color:#ffffff;
+                            position: relative;
+                            margin-top:-1%;
+                            border-radius:25px;
+                            border-color:#f77777;
+                            border:2px solid #ff7777;
+                            opacity:0.7;
+                            transition: all 800ms ease;
+                        }
+                        .titler::selection{
+                            background-color:rgba(255,172,71,0.5);
+                            }
+                        .get:hover .titler{
+                            color:#ffffff;
+                            background-color: #07273D;
+                            border-color:white;
+                            opacity:0.8;
+                        }
+
+                        .get .pword{
+                            margin-left: -25%;
+                            margin-top:25px;
+                            padding: 9px;
+                            border-radius:10px;
+                            border: 1px solid #f77777;
+                            background-color:white;
+                            width: 65%;
+                            position:absolute;
+                        }
+
+                        .get .usern{
+                            margin-left: 22%;
+                            margin-top: 10%;
+                            padding:9px;
+                            border-radius:10px;
+                            border: 1px solid #f77777;
+                            background-color:white;
+                            width:70%;
+                        }
+
+                        .lock i{
+                            font-size:35px;
+                            position:absolute;
+                            margin-left:-44%;
+                            margin-top:25px  
+                        }
+                        .circle i{
+                           font-size:28px;
+                            position:absolute;
+                            margin-left:-44%;
+                            margin-top:30px   
+                        }
+
+
+                        .submitter{
+                            border-radius: 10px;
+                            padding: 10px 10px 10px 10px;
+                            background-color: #000000;
+                            margin-top: 85px;
+                            margin-left: 64px;
+                            width:50%;
+                            border: 2px;
+                            opacity:0.6;
+                            cursor:pointer;
+                            transition: all 500ms ease-in-out;
+                        }
+                        .submitter:hover{
+                            background-color:#205E6E;
+                            opacity:0.9;
+
+                        }
+                        .submitter::selection{
+                            background-color:rgba(255,172,71,0.5);
+                        }
+
+                        .checkmark i{
+                            opacity:0;
+                            font-size:30px;
+                            position:absolute;
+                            margin-left:108px;
+                            margin-top:-40px;   
+                        }
+
+                        .fa-check{
+                            transition: all 500ms ease-in-out;
+                        }
+
+                        .submitter:hover .fa-check{
+                            color:#0DFF8E;
+                            opacity:1.0;
+                        }
+
+                        .fa-user-circle-o{
+                            transition: all 500ms ease-in-out;
+                        }
+
+                        .usercontainer:hover .fa-user-circle-o{
+                            color:#0DFF8E;
+                        }
+
+                        .fa-lock{
+                            transition: all 500ms ease-in-out;
+                        }
+
+                        .passcontainer:hover .fa-lock{
+                            color:#0DFF8E;
+                        }
+
+
+
          .testing{
              height:102.57%;
              width:100%;
              background-color:rgba(0,0,0,0.5);
-             margin-top:36.9%;
+             margin-top:37.0%;
              z-index:-100;
              margin-left:-0.5%;
              position:absolute;
@@ -272,62 +850,6 @@ body{
          }
 
 
-.maxcap {
-    border-radius: 10px;
-    background-color: rgba(0,0,0,0.0);
-    opacity:0.8;
-    margin-top: -4%;
-    margin-left: 1.56%;
-    text-align: left;
-    width: 80.5%;
-    transition: all 500ms ease;
-}
-
-
-.maxcap img{
-    height:90%;
-    width:100%;
-}
-
-
-
-/** "Unifying Customer and Service" **/
-.fa-handshake-o{
-    transition: all 600ms ease-in-out;
-}
-.description:hover .fa-handshake-o{
-    color:#0DC88E;
-}
-.description{
-    border-radius: 3%;
-    background-color: #07273D;
-    font-family:Saira Extra condensed;
-    width: 20%;
-    text-align:center;
-    color:white;
-    font-size:140%;
-    margin-left:35%;
-    margin-top:-15%;
-    border: 2px solid #07273E;
-    padding: 0.7%;
-    position:absolute;
-    transition: all 500ms ease; 
-    overflow:hidden;
-      
-}
-
-.description::selection{
-    background-color:#352e7e;
-}
-
-.description:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  border-color:#ffffff;
-}
-.description i{
-    margin-left:4%;
-}
 
 
 
@@ -336,227 +858,7 @@ body{
 /** MENU BLOCK With 2 buttons and Growth (NEED TO FIX CRITICAL ERROR) **/
 
 
-.get{
-    font-family:Saira Extra condensed;
-    color: white;
-    font-size:180%;
-    background-color: rgba(7,39,61,0.6);
-    width: 15.8%;
-    height: 59.5%;
-    border-radius: 10px;
-    border: 1px solid #07273E;
-    padding: 10px;
-    margin-left: 81%;
-    margin-top: -45%;
-    position:absolute;
-    text-align:center;
-    transition: all 900ms ease-in-out;
-       
-}
 
-
-.get:hover{
-    background-color: rgba(7,39,61,0.95);
-    border-color:#ffffff;
-}
-
-
-
-
-
-/** Button 1 CSS (Explore) **/
-
-
-
-
-
-
-
-.getstarty{
-    font-size:75%;
-    color:#000000;
-    padding:5px;
-    background-color:#ffffff;
-    position: relative;
-    margin-top:10%;
-    border-radius:25px;
-    border-color:#f77777;
-    border:2px solid #ff7777;
-    opacity:0.7;
-    transition: all 800ms ease;
-}
-
-.get:hover .getstarty{
-    color:#ffffff;
-    background-color: #07273D;
-    border-color:white;
-    opacity:0.8;
-}
-
-/** "Getting Started" CSS **/
-
-.titler{
-    font-size:75%;
-    color:#000000;
-    padding:5px;
-    background-color:#ffffff;
-    position: relative;
-    margin-top:-1%;
-    border-radius:25px;
-    border-color:#f77777;
-    border:2px solid #ff7777;
-    opacity:0.7;
-    transition: all 800ms ease;
-}
-.titler::selection{
-    background-color:#352e7e;
-}
-.get:hover .titler{
-    color:#ffffff;
-    background-color: #07273D;
-    border-color:white;
-    opacity:0.8;
-}
-
-
-
-
-/** Button 2 (Introduction) **/
-
-
-
-
-
-
-
-/** Testing Block **/
-
-
-
-
-
-/** Navbar logo **/
-
-.logonav {
-    background-color: none;
-    padding: 0px;
-    margin-top: -7px;
-    margin-left: 0px;
-    width: 6%;
-    left:0;
-    transition: all 700ms ease;
-    opacity:0.7;
-    position:fixed;
-    z-index:999999;
-}
-
-.logonav img{
-    height:100%;
-    width:100%;
-}
-.logonav:hover{
-    background-color:none;
-    opacity:0.9;
-}
-
-.get .pword{
-    margin-left: -25%;
-    margin-top:25px;
-    padding: 9px;
-    border-radius:10px;
-    border: 1px solid #f77777;
-    background-color:white;
-    width: 65%;
-    position:absolute;
-}
-
-.get .usern{
-    margin-left: 22%;
-    margin-top: 10%;
-    padding:9px;
-    border-radius:10px;
-    border: 1px solid #f77777;
-    background-color:white;
-    width:70%;
-}
-
-.lock i{
-    font-size:35px;
-    position:absolute;
-    margin-left:-44%;
-    margin-top:25px  
-}
-.circle i{
-   font-size:28px;
-    position:absolute;
-    margin-left:-44%;
-    margin-top:30px   
-}
-
-
-.submitter{
-    border-radius: 10px;
-    padding: 10px 10px 10px 10px;
-    background-color: #000000;
-    margin-top: 85px;
-    margin-left: 64px;
-    width:50%;
-    border: 2px;
-    opacity:0.6;
-    cursor:pointer;
-    transition: all 500ms ease-in-out;
-}
-.submitter:hover{
-    background-color:#205E6E;
-    opacity:0.9;
-    
-}
-.submitter::selection{
-    background-color:#352e7e;
-}
-
-.checkmark i{
-    opacity:0;
-    font-size:30px;
-    position:absolute;
-    margin-left:108px;
-    margin-top:-40px;   
-}
-
-.getstarty::selection{
-    background-color:#352e7e;
-}
-    
-
-.fullbackground{
-    margin-left:0.084%;
-    overflow:hidden;
-    width:100%;
-    height:3000px;
-}
-
-
-.fa-check{
-    transition: all 500ms ease-in-out;
-}
-.submitter:hover .fa-check{
-    color:#0DFF8E;
-    opacity:1.0;
-}
-
-.fa-user-circle-o{
-    transition: all 500ms ease-in-out;
-}
-.usercontainer:hover .fa-user-circle-o{
-    color:#0DFF8E;
-}
-
-.fa-lock{
-    transition: all 500ms ease-in-out;
-}
-.passcontainer:hover .fa-lock{
-    color:#0DFF8E;
-}
 
 .videoplayer{
     border:3px solid #07273D;
@@ -683,12 +985,11 @@ a.arrowmid{
 
 
 .lmao{
+    z-index:-100;
     border-radius:20px;
-    padding:30px;
-    background-color:rgba(0,0,0,0.0);
-    width:6px;
-    height:40px;
-    margin-top: -3725px;
+    padding:0%;
+    background-color:rgba(0,0,0,0.9);
+    margin-top: -193.84%;
     margin-left:45%;
     transition: all 800ms ease-in-out;
     
@@ -718,376 +1019,6 @@ a.arrowmid{
 
 
 
-.navbar{
-    margin-left:-0.5%;
-
-    position:fixed;
-
-    z-index:99999;
-}
-
-ul {
-    font-family:Saira Extra condensed;
-    overflow:hidden;
-    list-style-type: none;
-    margin-top:-1.05%;
-    margin-left:-2.229%;
-    width: 100%;
-    height:10.3%;
-    position:fixed;
-    background-color: rgba(0,0,0,0.7);
-}
-
-li a{
-    position:fixed;
-    opacity:1.0;
-}
-
-.contact{
-    margin-left:82.1%;
-    transition: all 500ms ease-in-out;
-}
-li a:hover{
-    opacity:1.0;
-    background-color:rgba(0,0,0,0.9);
-    color: #ffffff;
-}
-.home{
-    margin-left:76.8%;
-    transition: all 500ms ease-in-out;
-}
-.news{
-    margin-left:88.5%;
-    transition: all 500ms ease-in-out;
-}
-.team{
-    margin-left:94.2%;
-    transition: all 500ms ease-in-out;
-
-}
-
-li a {
-    text-align:center;
-    font-size:170%;
-    display: block;
-    color: #ffffff;
-    padding: 1.5% 1.4%;
-    text-decoration: none;
-}
-
-
-
-
-.CT{
-    position:absolute;
-    margin-top:14.4px;
-    margin-left:75.1%;
-    height:2px;
-    width:0px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.homer:hover .CT{
-    background-color:#0DFF8E;
-    height:2px;
-    width:103px;
-    
-}
-
-.CB{
-    position:absolute;
-    margin-top:95px;
-    margin-left:75.1%;
-    height:2px;
-    width:0px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.homer:hover .CB{
-    background-color:#0DFF8E;
-    height:2px;
-    width:103px;
-    
-}
-
-.CL{
-    position:absolute;
-    margin-top:4px;
-    margin-left:75.1%;
-    height:0px;
-    width:2px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-.homer:hover .CL{
-    background-color:#0DFF8E;
-    width:2px;
-    height:93px;
-}
-
-.CR{
-    position:absolute;
-    margin-top:4px;
-    margin-left:80.4%;
-    height:0px;
-    width:3px;
-    
-    background-color: #111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.homer:hover .CR{
-    background-color:#0DFF8E;
-    height:93px;
-    width:2px;
-    
-}
-
-
-
-
-
-.CTT{
-    position:absolute;
-    margin-top:14.4px;
-    margin-left:86.38%;
-    height:2px;
-    width:0px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.newser:hover .CTT{
-    background-color:#0DFF8E;
-    height:2px;
-    width:110px;
-    
-}
-
-.CBB{
-    position:absolute;
-    margin-top:95px;
-    margin-left:86.38%;
-    height:2px;
-    width:0px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.newser:hover .CBB{
-    background-color:#0DFF8E;
-    height:2px;
-    width:110px;
-    
-}
-
-.CLL{
-    position:absolute;
-    margin-top:4px;
-    margin-left:86.38%;
-    height:0px;
-    width:2px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-.newser:hover .CLL{
-    background-color:#0DFF8E;
-    width:2px;
-    height:93px;
-}
-
-.CRR{
-    position:absolute;
-    margin-top:4px;
-    margin-left:92.1%;
-    height:0px;
-    width:3px;
-    
-    background-color: #111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.newser:hover .CRR{
-    background-color:#0DFF8E;
-    height:93px;
-    width:2px;
-    
-}
-
-
-
-
-
-
-.CTTT{
-    position:absolute;
-    margin-top:14.4px;
-    margin-left:80.4%;
-    height:2px;
-    width:0px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.contacter:hover .CTTT{
-    background-color:#0DFF8E;
-    height:2px;
-    width:116.5px;
-    
-}
-
-.CBBB{
-    position:absolute;
-    margin-top:95px;
-    margin-left:80.4%;
-    height:2px;
-    width:0px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.contacter:hover .CBBB{
-    background-color:#0DFF8E;
-    height:2px;
-    width:116.5px;
-    
-}
-
-.CLLL{
-    position:absolute;
-    margin-top:4px;
-    margin-left:80.4%;
-    height:0px;
-    width:2px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-.contacter:hover .CLLL{
-    background-color:#0DFF8E;
-    width:2px;
-    height:93px;
-}
-
-.CRRR{
-    position:absolute;
-    margin-top:4px;
-    margin-left:86.38%;
-    height:0px;
-    width:3px;
-    
-    background-color: #111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.contacter:hover .CRRR{
-    background-color:#0DFF8E;
-    height:93px;
-    width:2px;
-    
-}
-
-
-
-
-
-
-
-.CTTTT{
-    position:absolute;
-    margin-top:14.4px;
-    margin-left:92.1%;
-    height:2px;
-    width:0px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.teamer:hover .CTTTT{
-    background-color:#0DFF8E;
-    height:2px;
-    width:109.5px;
-    
-}
-
-.CBBBB{
-    position:absolute;
-    margin-top:95px;
-    margin-left:92.1%;
-    height:2px;
-    width:0px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.teamer:hover .CBBBB{
-    background-color:#0DFF8E;
-    height:2px;
-    width:109.5px;
-    
-}
-
-.CLLLL{
-    position:absolute;
-    margin-top:4px;
-    margin-left:92.1%;
-    height:0px;
-    width:2px;
-    
-    background-color:#111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-.teamer:hover .CLLLL{
-    background-color:#0DFF8E;
-    width:2px;
-    height:93px;
-}
-
-.CRRRR{
-    position:absolute;
-    margin-top:4px;
-    margin-left:97.70%;
-    height:0px;
-    width:3px;
-    
-    background-color: #111111;
-    transition: all 500ms ease-in-out;
-    transition-delay:0.2s;
-}
-
-.teamer:hover .CRRRR{
-    background-color:#0DFF8E;
-    height:93px;
-    width:2px;
-    
-}
 
 .about{
     color:white;
@@ -1106,18 +1037,14 @@ li a {
 .about::selection{
     background-color:rgba(255,172,71,0.5);
 }
-
 .fakeslogan::selection{
     background-color:rgba(255,172,71,0.5);
 }
-
-
 .newcontent::selection{
-    
     background-color:rgba(255,172,71,0.5);
 }
 
-
+/** Scrollbar replacement to a custom version **/
 ::-webkit-scrollbar {
     position:absolute;
     width: 10px;
@@ -1141,6 +1068,7 @@ li a {
     
 }
 
+/** Progress scrollbar (Credits to CSStutorials) **/
 .scroll-progress-container {
   width: 1910px;
   height: 2px;

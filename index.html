@@ -1,411 +1,201 @@
+<!DOCTYPE html>
 <html>
-<head>
-<style>
-	body {
-		font-family: sans-serif;
-		color: #303030;
-		background-color: #fffcf4;
-		margin: 0;
-	}
 
-	h1 {
-		margin-top: 0;
-		font-size: 1.5em;
-		text-align: center;
-	}
-	
-	h2 {
-		margin-top: 0;
-		font-size: 1.2em;
-		text-align: center;
-	}
+    <head>
+        <script src="jquery-3.1.1.min.js"></script>
+        <script src="js.js"></script>
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <script src="https://use.fontawesome.com/f927c00188.js"></script>
+    </head>
+    
+        <body>
+            <style>
+                
+                .fa-cogs{
+                font-size:280%;
+                }
+                
+                .fa-sitemap{
+                font-size:280%;
+                }
+                
+                .fa-mobile{
+                font-size:280%;
+                }
+                
+                .fa-arrow-circle-o-right{
+                font-size:320%;
+                }
+                
+                .arrow .fa-arrow-circle-o-right{
+                font-size:320%;
+                position:absolute;
+                margin-top:164%;
+                margin-left:64%;
+                }
+                
+                .secondfull{
+                margin-top:102%;
+                }
+                
+            </style>
+    
+<!-- Full Container (Holds Landing Page - the arrow animation) -->
+                <div class = "fullbackground" id = "yeboi">
+    
+<!-- Navigation menu elements / Logonav is the Maxcap logo -->
+    
+                <div class = "logonav"><img src="Maxcap3.png"></div> 
+    
+                    <div id = "navbarr" class="navbar">
+                        <ul>
+                            <li class = homer><a href="#home" class="home">Home</a><div class = CT></div><div class = CB></div><div class = CR></div><div class = CL></div></li>
+                            <li class = newser><a href="#news" class="news">News </a><div class = CTT></div><div class = CBB></div><div class = CRR></div><div class = CLL></div></li>
+                            <li class = contacter><a href="#contact" class="contact">Contact </a><div class = CTTT></div><div class = CBBB></div><div class = CRRR></div><div class = CLLL></div></li>
+                            <li class = teamer><a href="#about" class ="team">Team </a><div class = CTTTT></div><div class = CBBBB></div><div class = CRRRR></div><div class = CLLLL></div></li>
+                        </ul>
+                    </div>
+    
+<!-- Maxcap logo that appears on the landing screen and it's container -->
+    
+                    <div id = "maxcapp" class = "maxcap">
+                        <img src="Maxcap3.png">
+                    </div>
+<!-- Scaling "button" with one sample slogan-->
+    
+                    <div class="description"> - Unifying Customer and Service <i class="fa fa-handshake-o" aria-hidden="true"></i>  </div>
+                    <br>
 
-	p {
-		text-align: center;
-		margin: 5px;
-	}
+    
+<!-- Important LOGIN Menu container, "get" -->
+                    <div id = "newget" class = "get">
 
-	.main {
-		width: 70%;
-		margin: 0 auto;
-	}
-	
-	.navbar ul {
-		position: fixed;
-		width: 100%;
-		list-style-type: none;
-		display: block;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		background-color: #00704a;
-	}
+<!-- Employer Login section -->
+                        <div class = "titler">Employer Login </div>
+        
+<!-- Username entry area for employers-->
+                        <div class = "usercontainer">
+                            <div class = "circle"><i class="fa fa-user-circle-o" aria-hidden="true"></i> </div>
+                            <input type="text" id = "usernamee" class = "usern" placeholder = "Username or e-Mail" type="email">
+                        </div>    
+        
+<!-- Password entry area for employers-->
+                        <div class = "passcontainer">     
+                            <div class = "lock"> <i class="fa fa-lock" aria-hidden="true"></i></div><input type="password" id = "passworde" class = "pword" placeholder = "Password">
+                            </div>
+        
+<!-- Login (redirects to sub-page, the employer view, runs JS.JS (ElogIn())) -->
+                        <div id = "submit" class = "submitter" onclick = "ElogIn()"> Login <div class = "checkmark"><i class="fa fa-check" aria-hidden="true"></i></div> </div> 
+        
+<!-- User Login section (currently no redirection location) -->
+                        <div id = "getstarted" class = "getstarty">User Login</div> 
+        
+<!-- Username entry area for customers -->
+                        <div class = "usercontainer">
+                            <div class = "circle"><i class="fa fa-user-circle-o" aria-hidden="true"></i> </div>
+                            <input type="text" id = "username" class = "usern" placeholder = "Username or e-Mail" type="email">
+                        </div>   
+        
+<!-- Password entry area for customers -->
+                        <div class = "passcontainer">     
+                            <div class = "lock"> <i class="fa fa-lock" aria-hidden="true"></i></div>
+                            <input type="password" id = "password" class = "pword" placeholder = "Password">
+                        </div>
+        
+<!-- Non functional redirection page (work in progress) -->
+                        <div id = "submit" class = "submitter" onclick = "logIn()"> Login 
+                            <div class = "checkmark"><i class="fa fa-check" aria-hidden="true"></i></div> 
+                        </div> 
+    
+                    </div>
+
+<!-- Videoplayer redirection link, scrolls down to video -->
+                    <div id ="videoz" class = "videoplayer">
+                        <a href = "#video"> <i class="fa fa-play"></i> </a>
+                    </div>
+    
+                </div>
+    
+<!-- Second Container - Holds about page, and company information  -->
+                <div class = secondfull>
+    
+<!-- A very poorly named arrow animation container (holds the three arrows) -->
+                    <div id = scrolltoabout class = "lmao">
+                        <a href="#"class="arrowright"><div class="arrowmover"></div></a>
+                        <a href="#"class="arrowmid"><div class="arrowmoverzz"></div></a>
+                        <a href="#"class="arrowleft"><div class="arrowmoverz"></div></a>
+                    </div>
+    
+<!-- A testing div used for the background of the landing page (it is a translucent black background) -->
+                    <div class=testing></div>
+    
+<!-- A container for the large font "About Us", it is a translucent black as well -->
+                    <div id = aboutpage class = about>About Us</div>
+    
+<!-- A background for the whole about page (it is a near-opaque white background) -->    
+                    <div class=contentabout></div>
+
+                    <div class=slogancontainer>
+                        <p class=fakeslogan>-- Putting the &nbsp; <b>Fast</b> &nbsp; in Fast Food --</p>
+                        <p class = newcontent>Maxcap is a mobile and web development that allows users to keep an eye on the wait lines of local franchises. <br>Revolutionizing the fast food industry and it's facets is our purpose.</p>
+                    </div>
+    
+<!-- Testimony div, contains Casey Li's testimony and his beautiful face -->
+                    <div id = "casey" class = "caseyli">
+                        <img src="caseyli.png"/>
+                        <p class = caseytext>"I can definitely see the value of a service of this sort. Maxcap epitomizes time conservation, convenience and <br>brilliance. As a business owner, I cannot afford to waste time at lineups, and Maxcap remedies this situation." </p>
+                        <p class = caseysign> <i>- Casey Li, business magnate, philantropist, living legend, and advocate for a better future. </i></p>
+                    </div>
+    
+                    <p class=methodtitled>Our Method<p>
+
+<!-- Three containers (separate) for the three steps of the Maxcap process -->
+                    <div class = stepone>
+                        <p class = steponetxt><b>Hardware Installation</b></p>
+                        <p class=first><br><br><br><br><br>Cutting edge laser technology sensors are installed at the entrances, that accurately determine the amount of people entering and leaving the store.</p>
+                    </div>
+    
+                    <div class = steptwo>
+                        <p class = steptwotxt><b>Data Storage</b></p>
+                        <p class = second><br><br><br><br><br>This data is uploaded and stored in our secure databases. The information is then processed rigorously and returns very accurately approximated wait times.</p>
+                    </div>
+    
+                    <div class = stepthree>
+                        <p class = stepthreetxt><b>Live Updates</b></p>
+                        <p class = third>The wait times are then updated in real-time on the user interface of the franchise's app. This information is then accessible by the user in a simplified format. </p>
+                    </div>
+    
+<!-- Icons for the about page , the three steps and the arrows -->
+                    <i class="fa fa-cogs" aria-hidden="true"></i>  
+                    <i class="fa fa-sitemap" aria-hidden="true"></i>
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                    <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+    
+                    <div class = arrow>
+                        <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                    </div>
+    
+                </div>
+    
+<!-- Design elements of the about page -->
+                <div class=blackline></div>
+                <div class = verticalone></div>
+                <div class = horizontalone></div>
+                <div class = verticaltwo></div>
+                <div class = horizontaltwo></div>
+    
+<!-- Youtube video container "youtube", and a background div "videocontainer" - (translucent black) -->
+                <div id = "utube" class=youtube>
+                    <iframe width="70%" height="90%" src="https://www.youtube.com/embed/N506QvhTZ80?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+    
+                <div class = videocontainer></div>
+
+                <div class="scroll-progress-container">
+                    <div class="scroll-progress"></div>
+                </div>
 
 
-	.navbar li a {
-		float: right;
-		font-size: 1.5em;
-		display: block;
-		color: white;
-		text-align: center;
-		text-decoration: none;
-		padding-left: 2em;
-		padding-right: 2em;
-		padding-top: 0.5em;
-		padding-bottom: 0.5em;
-	}
-
-	.navbar li a:hover {
-		background-color: #003523;
-	}
-	
-	.navbar li img {
-		float: left;
-		height: 3em;
-		width: auto;
-		padding-left: 1em;
-	}
-
-	.logo {
-		height: 100%;
-		text-align: center;
-	}
-
-	.logo img {
-		width: 100%;
-		height: auto;
-	}
-
-	.logo a {
-		text-decoration: none;
-		font-size: 2em;
-	}
-
-	.logo #slogan {
-		background-color: #00704a;
-		color: white;
-		border-radius: 3px;
-		border: 3px solid #003523;
-		padding: 5px;
-	}
-
-	.desc h1 {
-		margin-top: 1em;
-	}
-	
-	.testimonial {
-		display: inline-block;
-		margin-top: 50px;
-	}
-
-	.testimonial img {
-		width: 150px;
-		border-radius: 50%;
-		height: auto;
-		border: 0.5px solid black;
-		display: inline-block;
-		float: left;
-	}
-	
-	.about {
-		margin-top: 50px;
-		overflow: auto;
-	}
-	
-	.about img {
-		width: 50px;
-		height: 60px;
-		display: block;
-		margin-top: 0.7em;
-		margin-bottom: 0.7em;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.about .step {
-		width: 33%;
-	}
-
-	.step {
-		float: left;
-	}
-
-	.step p {
-		font-size: 0.9em;
-	}
-
-	.video {
-		margin-top: 50px;
-	}
-
-	.video iframe{
-		margin: 0 auto;
-		display: block;
-	}
-
-	.team {
-		margin-top: 50px;
-	}
-
-	.team img {
-		margin-top: 0.7em;
-		margin-bottom: 0.7em;
-		margin-left: auto;
-		margin-right: auto;
-		border: 0.5px solid black;
-		width: 75px;
-		height: 75px;
-		display: block;
-		border-radius: 50%;
-	}
-
-	.team .items {
-		display: block;
-	}
-
-	.team .row1 {
-		overflow: auto;
-	}
-
-	.team .row2 {
-		overflow: auto;
-	}
-
-	.team .member {
-		margin-bottom: 2em;
-		float: left;
-	}
-
-	.row1 .member{
-		width: 33%;
-	}
-
-	.row2 .member{
-		width: 50%;
-	}
-
-	.contact {
-		margin-top: 50px;
-	}
-
-	.contact input {
-		margin-bottom: 10px;
-		width: 90%;
-		display: block;
-		margin-top: 5px;
-		border: 0.5px solid #aaa;
-		background-color: #f8f8f8;
-		border-radius: 3px;
-	}
-
-	.contact textarea {
-		margin-top: 5px;
-		width: 90%;
-		height: 100px;
-		border: 0.5px solid #aaa;
-		background-color: #f8f8f8;
-		border-radius: 3px;
-		display: block;
-	}
-
-	.contact textarea:hover, input:hover {
-		border: 1px solid #00704a;
-	}
-
-	.contact img {
-		width: 50px;
-		height: auto;
-		display: block;
-		margin: 5px;
-	}
-
-	.contact p {
-		font-size: 0.8em;
-		text-align: left;
-		margin-bottom: 1em;
-	}
-
-	.contact .icons {
-		float: left;
-		width: 20%;
-	}
-
-	.contact .input {
-		float: right;
-		width: 80%;
-	}
-
-	.contact .form-content {
-		margin-left: 10px;
-	}
-
-	.contact #submit {
-		margin-top: 15px;
-		width: 20%;
-	}	
-</style>
-</head>
-<body>
-
-<div class="navbar">
-<ul>
-	<li><a href="Employer.html">Employer</a></li>
-	<li><a href="index2.html">Home</a></li>
-	<li><img src="assets/icon_MXP.png"></li>
-</ul>
-</div>
-
-<div class="main">
-<div class="logo">
-	<img src="assets/maxcaplogo.png">
-	<a href="#first"><span id="slogan">Unifying Customer and Service</span></a>
-</div>
-
-<div class="desc">
-	<h1 id="first">Putting the <em>fast</em> in fast food</h1>
-	<p>Maxcap is a mobile and web service that allows users to keep an eye on
-the wait lines of local franchises. Revolutionizing the fast food industry and
-its facets is our purpose.</p>
-</div>
-
-<div class="testimonial">
-	<h1>Satisfied User</h1>
-	<img src="assets/caseyli.png">
-	<p><em>"I can see the value of a service of this sort. Maxcap's strengths
-are time conservation, convenience and brilliance. As a business owner, I cannot
-afford to waste time at lineups, and Maxcap remedies this situation."</em></p>
-	<p><em>- Casey Li, business magnate, advocate for a better future"</em></p>
-</div>
-
-<div class="about">
-	<h1>Our Method</h1>
-	<div class="step">
-	<h2><em>Hardware Installation</em></h2>
-	<img src="assets/icon howitworks.png">
-	<p>Cutting edge laser sensors are installed at the entrances, that
-accurately determine the amount of people entering and leaving the store.</p>
-	</div>
-	<div class="step">
-	<h2><em>Data Storage</em></h2>
-	<img src="assets/goal_logo_transparent.png">
-	<p>This data is uploaded and stored in our secure databases. The information
-is then processed and returns very accurately approximated wait times.</p>
-	</div>
-	<div class="step" id="last-step">
-	<h2><em>Live Updates</em></h2>
-	<img src="assets/what_we_bring.png">
-	<p>The wait times are then updated in real-time on the user interface of the
-franchise's app. This information is then accessible by the user in a simple
-format.</p>
-	</div>
-</div>
-
-<div class="video">
-	<h1>Maxcap Product</h1>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/N506QvhTZ80?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
-
-<div class="team">
-<div>
-	<h1>The Team</h1>
-</div>
-		
-<div class="items">
-<div class="row1">
-<div class="member">
-	<strong>
-	<p>Binura Gunasekera</p> 
-	<p><em>Chief Operations Officer</em></p>
-	</strong>
-	<img src="assets/team_images/ Binura_Gunasekera.jpg" class="mem-img"> 
-	<p class="link"><a
-href="https://www.linkedin.com/in/binura-g-091a9511a/">Linkedin</a></p>
-</div> <!--member-->
-							
-<div class="member">
-	<strong>
-	<p>S&#233bastien Gorman</p>
-	<p><em>Executive Director</em></p>
-	</strong>
-	<img src="assets/team_images/sebastien_gorman.PNG" class="mem-img">
-	<p class="link"><a
-href="https://www.linkedin.com/in/sébastien-gorman-4b638a152/">Linkedin</a></p>
-</div> <!--member-->
-							
-<div class="member">
-	<strong>
-	<p>Ellen Li</p> 
-	<p><em>Front-end Developer</em></p>
-	</strong>
-	<img src="assets/team_images/ellen_li.jpg" class="mem-img">
-	<p class="link"><a href="https://www.linkedin.com/in/ellenli030/<">Linkedin</a></p>
-</div> <!--member-->
-</div> <!--row1-->
-
-<br>
-<div class="row2">							
-<div class="member">
-	<strong>
-	<p>Shahzaib Sahibzada</p>
-	<p><em>Back-end Engineer</em></p>
-	</strong>
-	<img src="assets/team_images/shahzaib_sahibzada.JPG" class="mem-img">
-	<p class="link"><a
-href="https://www.linkedin.com/in/shahzaib-sahibzada/">Linkedin</a></p>
-</div> <!--member-->							
-				
-<div class="member">
-	<strong>
-	<p>Tharmendrah Sivakumar</p> 
-	<p><em>Business Operations Manager</em></p>
-	</strong>
-	<img src="assets/stock_profile.png" class="mem-img">
-	<p class="link"><a
-href="https://www.linkedin.com/in/tharmendrah-sivakumar-5a1437151/">Linkedin</a></p>
-</div> <!--member-->
-</div> <!--row2-->					
-</div> <!--items-->
-</div> <!--team-->
-
-<div class="contact">
-<h1>Contact Us</h1>
-<div class="icons">
-	<img src="assets/contact1.png">
-	<p>Address:</p><p>Maxcap HQ, Ottawa</p>
-	<img src="assets/contact2.png">
-	<p>Contact number:</p><p>905-191-919</p>
-	<img src="assets/contact3.png">
-	<p>Email:</p><p>maxcap@maxcap.com</p>
-</div> <!--icons-->
-<div class="input">
-	<div class="form-content">
-	<label>First Name: </label>
-	<input type="text" placeholder="Enter first name">
-	<br>
-	</div>
-
-	<div class="form-content">
-	<label>Last Name: </label>
-	<input type="text" placeholder="Enter last name">
-	<br>
-	</div>
-
-	<div class="form-content">
-	<label>Email: </label>
-	<input type="text" placeholder="Enter email">
-	<br>
-	</div>
-
-	<div class="form-content">
-	<label>Message: </label>
-	<textarea type="text"></textarea>	
-	</div>
-	
-	<div class="form-content">
-	<input type="submit" value="Submit form" id="submit">
-	</div>
-</div> <!--input-->
-</div> <!--contact-->
-</div> <!--main-->
-</body>
+        </body>
 </html>
+
