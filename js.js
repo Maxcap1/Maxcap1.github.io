@@ -122,30 +122,8 @@ $(document).ready(function(){
 	});
 });
 
-$(document).ready(function(){       
-   var scroll_start = 0;
-   var maxcapp = $('maxcapp');
-   var offset = maxcapp.offset();
-   $(document).scroll(function() { 
-      scroll_start = $(this).scrollLeft();
-      if(scroll_start > offset.Left) {
-          $('#navbar').css('background-color', '#ffffff');
-       } else {
-          $('#navbar').css('background-color', 'transparent');
-       }
-   });
-});
 
 
-/*
-$(window).scroll(function() {
-  if ($(document).scrollTop() > 50) {
-    $('nav').addClass('shrink');
-  } else {
-    $('nav').removeClass('shrink');
-  }
-});
-*/
 
 $(document).ready(function() {
       var docHeight = $(document).height(),
@@ -166,6 +144,67 @@ $(document).ready(function(){
 
 	    var target = this.hash;
 	    var $target = $("#utube");
+
+	    $('html, body').animate({
+	        'scrollTop': $target.offset().top
+	    }, 1700, function () {
+
+	    });
+	});
+}); 
+
+$(document).ready(function(){
+	$('#scrolltoabout').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $("#aboutpage");
+
+	    $('html, body').animate({
+	        'scrollTop': $target.offset().top
+	    }, 1700, function () {
+
+	    });
+	});
+}); 
+
+$(document).ready(function(){
+	$('#homie').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $("#yeboi");
+
+	    $('html, body').animate({
+	        'scrollTop': $target.offset().top
+	    }, 1700, function () {
+
+	    });
+	});
+}); 
+
+
+$(document).ready(function(){
+	$('#Aboutie').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $("#aboutpage");
+
+	    $('html, body').animate({
+	        'scrollTop': $target.offset().top
+	    }, 1700, function () {
+
+	    });
+	});
+}); 
+
+$(document).ready(function(){
+	$('#teamie').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $("#scrollteam");
 
 	    $('html, body').animate({
 	        'scrollTop': $target.offset().top
