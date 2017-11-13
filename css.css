@@ -6,7 +6,7 @@
 
 body{
             background-repeat: no-repeat;
-            background-image:url(Parallax.jpg);
+            background-image:url(assets/Parallax.jpg);
             background-attachment: fixed;
             background-size: 1920px 1080px;
         }
