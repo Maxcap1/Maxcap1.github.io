@@ -6,7 +6,7 @@
 
 body{
             background-repeat: no-repeat;
-            background-image:url(assets/Parallax.jpg);
+            background-image:url(Parallax.jpg);
             background-attachment: fixed;
             background-size: 1920px 1080px;
         }
@@ -65,6 +65,7 @@ body{
                     }
 
                     li a{
+                        margin-top:0.01%;
                         position:fixed;
                         opacity:1.0;
                     }
@@ -83,10 +84,12 @@ body{
                         transition: all 500ms ease-in-out;
                     }
                     .news{
+                        padding:1.5% 2.0% 1.3% 1.4%;
                         margin-left:88.5%;
                         transition: all 500ms ease-in-out;
                     }
                     .team{
+                        padding:1.5% 2.0% 1.3% 1.4%;
                         margin-left:94.2%;
                         transition: all 500ms ease-in-out;
                     }
@@ -1081,6 +1084,11 @@ a.arrowmid{
   height: 5px;
   background-color: rgba(255,36,79,0.6);
 }
+
+
+/** Team Page (5 Members) **/
+
+
 
 
 
