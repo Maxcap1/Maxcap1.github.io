@@ -29,6 +29,7 @@ img {
 /*.link {
 	visibility: hidden;
 }
+
 .mem-img:hover + .link {
 	visibility: visible;
 }*/
