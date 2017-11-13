@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+
+	body {
+		font-family:Saira Extra condensed;
+		color: white; 
+		background-size: 1920px 1080px;
+	}
+
+	h1 {
+		font-family:Saira Extra condensed;
+		text-align: center;
+		font-size: 1.5em;
+	}
+	
+	input {
+		margin-bottom: 10px;
+		width: 90%;
+		display: block;
+		margin-top: 5px;
+		border: 0.5px solid #aaa;
+		background-color: #f8f8f8;
+		border-radius: 3px;
+	}
+
+	textarea {
+		margin-top: 5px;
+		width: 90%;
+		height: 100px;
+		border: 0.5px solid #aaa;
+		background-color: #f8f8f8;
+		border-radius: 3px;
+		display: block;
+	}
+
+	textarea:hover, input:hover{
+		border: 1px solid green;
+	}
+
+	img {
+		width: 50px;
+		height: auto;
+		display: block;
+		margin: 5px;
+	}
+
+	p {
+		font-family:Saira Extra condensed;
+		font-size: 10pt;
+	}	
+
+	.content {
+		margin: 0 auto;
+		width: 70%;
+	}
+	
+	.icons {
+		float: left;
+		width: 20%;
+	}
+
+	.input {
+		float: right;
+		width: 80%;
+	}
+
+	.form-content {
+		margin-left: 10px;
+	}
+
+	#submit {
+		margin-top: 15px;
+		width: 20%;
+	}
+</style>
+</head>
+<body background="assets/contact_background3.jpeg">
+<div class="content">
+<h1>Contact Us</h1>
+<div class="icons">
+	<img src="assets/contact1.png">
+	<p>Address:</p><p>Maxcap HQ, Ottawa</p>
+	<img src="assets/contact2.png">
+	<p>Contact number:</p><p>905-191-1919</p>
+	<img src="assets/contact3.png">
+	<p>Email:</p><p>maxcap@maxcap.com</p>
+</div>
+<div class="input">
+	<div class="form-content">
+	<label>First Name: </label>
+	<input type="text" placeholder="Enter first name">
+	<br>
+	</div>
+
+	<div class="form-content">
+	<label>Last Name: </label>
+	<input type="text" placeholder="Enter last name">
+	<br>
+	</div>
+
+	<div class="form-content">
+	<label>Email: </label>
+	<input type="text" placeholder="Enter email">
+	<br>
+	</div>
+
+	<div class="form-content">
+	<label>Message: </label>
+	<textarea type="text"></textarea>	
+	</div>
+	
+	<div class="form-content">
+	<input type="submit" value="Submit form" id="submit">
+	</div>
+</div>
+</div>
+</body>
+</html>

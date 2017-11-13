@@ -1,0 +1,68 @@
+body {
+	font-family: sans-serif;
+	color: #303030;
+	background-size: 1920px 1080px;
+}
+
+h1 {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	margin: 5px;
+}
+
+img {
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0.5px solid black;
+	width: 150px;
+	height: 150px;
+	display: block;
+	border-radius: 50%;
+}
+
+/*.link {
+	visibility: hidden;
+}
+.mem-img:hover + .link {
+	visibility: visible;
+}*/
+
+a {
+	color: #636363;
+}
+
+.main {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.items {
+	display: block;
+}
+
+.row1 {
+	overflow: auto;
+}
+
+.row2 {
+	overflow: auto;
+}
+
+.member {
+	margin-bottom: 2em;
+	float: left;
+}
+
+.row1 .member{
+	width: 33%;
+}
+
+.row2 .member{
+	width: 50%;
+}
