@@ -50,6 +50,22 @@
                     width:75%;
                     
                 }
+                .teamcontainer{
+                    background-color:rgba(0,0,0,0.2);
+                    margin-top:190.8%;
+                    position:absolute;
+                    height:30%;
+                    width:100%;
+                    margin-left:-0.5%;
+                    font-family:Saira extra condensed;
+                    color:white;
+                    text-align:center;
+                }
+                .theteam{
+                    margin-left:2%;
+                    margin-top:4%;
+                    font-size:5em;
+                }
                 
             </style>
     
@@ -58,21 +74,21 @@
     
 <!-- Navigation menu elements / Logonav is the Maxcap logo -->
     
-                <div class = "logonav"><img src="assets/Maxcap3.png"></div> 
+                <div class = "logonav"><img src="Maxcap3.png"></div> 
     
                     <div id = "navbarr" class="navbar">
                         <ul>
-                            <li class = homer><a href="index.html" class="home">Home</a><div class = CT></div><div class = CB></div><div class = CR></div><div class = CL></div></li>
-                            <li class = newser><a href="#news" class="news">News </a><div class = CTT></div><div class = CBB></div><div class = CRR></div><div class = CLL></div></li>
-                            <li class = contacter><a href="contactnew2.html" class="contact">Contact </a><div class = CTTT></div><div class = CBBB></div><div class = CRRR></div><div class = CLLL></div></li>
-                            <li class = teamer><a href="team2.html" class ="team">Team </a><div class = CTTTT></div><div class = CBBBB></div><div class = CRRRR></div><div class = CLLLL></div></li>
+                            <li id = homie class = homer><a href="#home" class="home">Home</a><div class = CT></div><div class = CB></div><div class = CR></div><div class = CL></div></li>
+                            <li id = Aboutie class = newser><a href="#news" class="news">About </a><div class = CTT></div><div class = CBB></div><div class = CRR></div><div class = CLL></div></li>
+                            <li id = contactie class = contacter><a href="#contact" class="contact">Contact </a><div class = CTTT></div><div class = CBBB></div><div class = CRRR></div><div class = CLLL></div></li>
+                            <li id = teamie class = teamer><a href="#about" class ="team">Team </a><div class = CTTTT></div><div class = CBBBB></div><div class = CRRRR></div><div class = CLLLL></div></li>
                         </ul>
                     </div>
     
 <!-- Maxcap logo that appears on the landing screen and it's container -->
     
                     <div id = "maxcapp" class = "maxcap">
-                        <img src="assets/Maxcap3.png">
+                        <img src="Maxcap3.png">
                     </div>
 <!-- Scaling "button" with one sample slogan-->
     
@@ -128,7 +144,7 @@
                     </div>
     
                 </div>
-            <div class=testing></div>
+            <div id = newscroll class=testing></div>
             <div class=contentabout></div>
     
 <!-- Second Container - Holds about page, and company information  -->
@@ -190,7 +206,7 @@
                     </div>
     
                 </div>
-            <div class=handsome><img src="assets/caseyli.png"/></div>
+            <div class=handsome><img src="caseyli.png"/></div>
     
 <!-- Design elements of the about page -->
                 <div class=blackline></div>
@@ -210,7 +226,532 @@
                     <div class="scroll-progress"></div>
                 </div>
 
+            
+<!-- Team Page 5 Members -->
+            
+            <div class = teamcontainer><p class = theteam>The Team</p></div>
+            <div class = teambackground></div>
+            <style>
+                .teambackground{
+                    margin-top:206%;
+                    background-color:rgba(255,255,255,0.8);
+                    width:100%;
+                    margin-left:-0.5%;
+                    height:120%;
+                    position:absolute;
+                        
+                }
+                    .Shahzaib{
+                        
+                        border-radius:200%;
+                        border:0.3em solid black;
+                        height:41%;
+                        width:21%;
+                        background-color:black;
+                        margin-top:215%;
+                        margin-left:15%;
+                        align-content:center;
+                        position:absolute;
+                        transition: all 500ms ease-in-out;
+                        text-align: center;
+                        }
+                
+                .mem1{
+                    position:absolute;
+                    margin-left:15%;
+                    margin-top:-25%;
+                    font-family:Saira extra condensed;
+                    font-size:3em;
+                    
+                }
+                        .Shahzaib .design{
+                            color:white;
+                            font-family:Saira extra condensed;
+                            font-size:3em;
+                            margin-top:-60%;
+                            opacity:0.0;
+                            transition:all 500ms ease-in-out;
+                        }
+                        .Shahzaib:hover .design{
+                            opacity:1.0;
+                        }
+                        .Shahzaib:hover {
+                              -webkit-transform: scale(1.1);
+                              transform: scale(1.1);
+                              border-color:rgba(255,172,71,1);
+                        }
+                        .Shahzaib img{
+                            border-radius:100%;
+                            margin-top:-0.6%;
+                            margin-left:-0.66%;
+                            height:101%;
+                            width:101%;
+                            transition: all 500ms ease-in-out;
+                            }
+                        .Shahzaib:hover img{
+                            opacity:0.3;
 
+                        }
+                
+                .Shahzaib:hover .fa-github{
+                    opacity:1.0;
+                }
+                .Shahzaib .fa-github{
+                    margin-top:0%;
+                    z-index:300;
+                    opacity:0.0;
+                    margin-left:5%;
+                    color:white;
+                    position:absolute;
+                    transition:all 500ms ease-in-out;
+                    font-size:3em;
+                }
+                .Shahzaib:hover .fa-linkedin-square{
+                    opacity:1.0;
+                }
+                .Shahzaib .fa-linkedin-square{
+                    margin-top:0%;
+                    z-index:300;
+                    opacity:0.0;
+                    margin-left:-13%;
+                    color:white;
+                    position:absolute;
+                    transition:all 500ms ease-in-out;
+                    font-size:3em;
+                }
+                
+                    .Binura{
+                        border-radius:200%;
+                        border:0.3em solid black;
+                        height:40%;
+                        width:20%;
+                        background-color:black;
+                        margin-top:215%;
+                        text-align:center;
+                        margin-left:40%;
+                        position:absolute;
+                        transition: all 500ms ease-in-out;
+                        }
+                .mem2{
+                    position:absolute;
+                    margin-left:15%;
+                    margin-top:-25%;
+                    font-family:Saira extra condensed;
+                    font-size:3em;
+                    
+                }
+                        .Binura:hover {
+                              -webkit-transform: scale(1.1);
+                              transform: scale(1.1);
+                              border-color:rgba(255,172,71,1);
+                        }
+                        .Binura img{
+                            border-radius:100%;
+                            margin-top:-0.6%;
+                            margin-left:-0.46%;
+                            height:101%;
+                            width:101%;
+                            transition:all 500ms ease-in-out;
+                            }
+                        .Binura:hover img{
+                            opacity:0.3;
+
+                        }
+                        .Binura .UXD{
+                            color:white;
+                            font-family:Saira extra condensed;
+                            font-size:3em;
+                            margin-top:-60%;
+                            opacity:0.0;
+                            transition:all 500ms ease-in-out;
+                        }
+                        .Binura:hover .UXD{
+                            opacity:1.0;
+                        }
+                
+                .Binura:hover .fa-github{
+                    opacity:1.0;
+                }
+                .Binura .fa-github{
+                    margin-top:0%;
+                    z-index:300;
+                    opacity:0.0;
+                    margin-left:5%;
+                    color:white;
+                    position:absolute;
+                    transition:all 500ms ease-in-out;
+                    font-size:3em;
+                }
+                .Binura:hover .fa-linkedin-square{
+                    opacity:1.0;
+                }
+                .Binura .fa-linkedin-square{
+                    margin-top:0%;
+                    z-index:300;
+                    opacity:0.0;
+                    margin-left:-13%;
+                    color:white;
+                    position:absolute;
+                    transition:all 500ms ease-in-out;
+                    font-size:3em;
+                }
+                    .Ellen{
+                        border-radius:200%;
+                        border:0.3em solid black;
+                        height:40%;
+                        width:20%;
+                        background-color:black;
+                        margin-top:215%;
+                        margin-left:65%;
+                        text-align:center;
+                        position:absolute;
+                        transition: all 500ms ease-in-out;
+                        }
+                
+                .mem3{
+                    position:absolute;
+                    margin-left:38%;
+                    margin-top:-25%;
+                    font-family:Saira extra condensed;
+                    font-size:3em;
+                    
+                }
+                        .Ellen:hover {
+                              -webkit-transform: scale(1.1);
+                              transform: scale(1.1);
+                              border-color:rgba(255,172,71,1);
+                        }
+                        .Ellen:hover img{
+                            opacity:0.3;
+
+                        }
+                        .Ellen .production{
+                            color:white;
+                            font-family:Saira extra condensed;
+                            font-size:3em;
+                            margin-top:-60%;
+                            opacity:0.0;
+                            transition:all 500ms ease-in-out;
+                        }
+                        .Ellen:hover .production{
+                            opacity:1.0;
+                        }
+                            .Ellen img{
+                                border-radius:100%;
+                                margin-top:-0.6%;
+                                margin-left:-0.46%;
+                                height:101%;
+                                width:101%;
+                                transition:all 500ms ease-in-out;
+                                }
+                
+                .Ellen:hover .fa-github{
+                    opacity:1.0;
+                }
+                .Ellen .fa-github{
+                    margin-top:0%;
+                    z-index:300;
+                    opacity:0.0;
+                    margin-left:5%;
+                    color:white;
+                    position:absolute;
+                    transition:all 500ms ease-in-out;
+                    font-size:3em;
+                }
+                .Ellen:hover .fa-linkedin-square{
+                    opacity:1.0;
+                }
+                .Ellen .fa-linkedin-square{
+                    margin-top:0%;
+                    z-index:300;
+                    opacity:0.0;
+                    margin-left:-13%;
+                    color:white;
+                    position:absolute;
+                    transition:all 500ms ease-in-out;
+                    font-size:3em;
+                }
+                
+                    .Siva{
+                        border-radius:200px;
+                        border:0.3em solid black;
+                        height:40%;
+                        width:20%;
+                        background-color:black;
+                        margin-top:242%;
+                        margin-left:27%;
+                        text-align:center;
+                        position:absolute;
+                        transition: all 500ms ease-in-out;
+                        }
+                        .Siva:hover {
+                              -webkit-transform: scale(1.1);
+                              transform: scale(1.1);
+                              border-color:rgba(255,172,71,1);
+                        }
+                        .Siva:hover img{
+                            opacity:0.3;
+
+                        }
+                        .Siva .business{
+                            color:white;
+                            font-family:Saira extra condensed;
+                            font-size:3em;
+                            margin-top:-60%;
+                            opacity:0.0;
+                            transition:all 500ms ease-in-out;
+                        }
+                        .Siva:hover .business{
+                            opacity:1.0;
+                        }
+                        .Siva img{
+                            border-radius:100%;
+                            margin-top:-0.6%;
+                            margin-left:-0.46%;
+                            height:101%;
+                            width:101%;
+                            transition:all 500ms ease-in-out;
+                                }
+                
+                .Siva:hover .fa-github{
+                    opacity:1.0;
+                }
+                .Siva .fa-github{
+                    margin-top:0%;
+                    z-index:300;
+                    opacity:0.0;
+                    margin-left:5%;
+                    color:white;
+                    position:absolute;
+                    transition:all 500ms ease-in-out;
+                    font-size:3em;
+                }
+                .Siva:hover .fa-linkedin-square{
+                    opacity:1.0;
+                }
+                .Siva .fa-linkedin-square{
+                    margin-top:0%;
+                    z-index:300;
+                    opacity:0.0;
+                    margin-left:-13%;
+                    color:white;
+                    position:absolute;
+                    transition:all 500ms ease-in-out;
+                    font-size:3em;
+                }
+                
+                .mem4{
+                    position:absolute;
+                    margin-left:4%;
+                    margin-top:-25%;
+                    font-family:Saira extra condensed;
+                    font-size:3em;
+                    
+                }
+                
+                    .Sebastien{
+                        border-radius:200px;
+                        border:0.3em solid black;
+                        height:40%;
+                        width:20%;
+                        z-index:0;
+                        background-color:black;
+                        margin-top:242%;
+                        margin-left:53%;
+                        text-align:center;
+                        position:absolute;
+                        transition: all 500ms ease-in-out;
+                        }
+                
+                .mem5{
+                    position:absolute;
+                    margin-left:15%;
+                    margin-top:-25%;
+                    font-family:Saira extra condensed;
+                    font-size:3em;
+                    
+                }
+                        .Sebastien:hover {
+                              -webkit-transform: scale(1.1);
+                              transform: scale(1.1);
+                              border-color:rgba(255,172,71,1);
+                        }
+                        .Sebastien:hover img{
+                            opacity:0.3;
+
+                        }
+                        .Sebastien .LB{
+                            color:white;
+                            font-family:Saira extra condensed;
+                            font-size:3em;
+                            margin-top:-60%;
+                            margin-left:0;
+                            opacity:0.0;
+                            z-index:200;
+                            
+                            transition:all 500ms ease-in-out;
+                        }
+                        .Sebastien:hover .LB{
+                            opacity:1.0;
+                        }
+                        .Sebastien img{
+                            border-radius:100%;
+                            margin-top:-0.6%;
+                            margin-left:-0.46%;
+                            height:101%;
+                            width:101%;
+                            transition:all 500ms ease-in-out;
+                            }
+                /** Icon Animations / Implementations **/
+                
+                .Sebastien:hover .fa-github{
+                    opacity:1.0;
+                }
+                .Sebastien .fa-github{
+                    margin-top:0%;
+                    z-index:300;
+                    opacity:0.0;
+                    margin-left:5%;
+                    color:white;
+                    position:absolute;
+                    transition:all 500ms ease-in-out;
+                    font-size:3em;
+                }
+                .fa-github:hover {
+                    color:#FFAC47;
+                }
+                .Sebastien:hover .fa-linkedin-square{
+                    opacity:1.0;
+                }
+                .Sebastien .fa-linkedin-square{
+                    margin-top:0%;
+                    z-index:300;
+                    opacity:0.0;
+                    margin-left:-13%;
+                    color:white;
+                    position:absolute;
+                    transition:all 500ms ease-in-out;
+                    font-size:3em;
+                }
+                .fa-linkedin-square:hover {
+                    color:#FFAC47;
+                }
+                        
+                /** BOTTOM BAR **/
+                .bottombar{
+            margin-left:-.5%;
+            position:absolute;
+            margin-top:300%;
+            height:30%;
+            width:100%;
+            background: linear-gradient(227deg, #07273D, #0C0C17, #07273D);
+            background-size: 400% 400%;
+
+            animation: coolgradient 5s ease infinite;
+
+            
+        }
+        .bottombar p1{
+            font-family:Saira Extra condensed;
+            color:white;
+            font-size:1.5em;
+            position:absolute;
+            margin-left:47%;
+            margin-top:7.9%;
+        }
+        .bottombar p2{
+            font-family:Saira Extra condensed;
+            color:white;
+            font-size:1em;
+            position:absolute;
+            margin-left:50%;
+            margin-top:5.7%;
+        }
+        .bottombar p3{
+            font-family:Saira Extra condensed;
+            color:white;
+            font-size:1.15em;
+            position:absolute;
+            margin-left:50.3%;
+            margin-top:10.5%;
+         
+        }
+        @keyframes coolgradient { 
+        0%{background-position:50% 0%}
+        50%{background-position:51% 100%}
+        100%{background-position:50% 0%}
+        }
+         .facebookholder{
+            border-radius:1000%;
+            width:2em;
+            height:2em;
+            position:absolute;
+            margin-left:52.6%;
+            margin-top:2.2%;
+            transition: all 500ms ease-in-out;
+        }
+        .facebookholder:hover{
+            background-color:white;
+        }
+        .facebookholder:hover .fa-facebook{
+            color:#2F5A9E;
+        }
+        .fa-facebook{
+            color:white;
+            font-size:1.6em;
+            margin-top:4.5px;
+            margin-left:22%;
+            position:absolute;
+            transition: all 500ms ease-in-out;
+        }
+        .twitterholder{
+            border-radius:1000%;
+            width:2em;
+            height:2em;
+            position:absolute;
+            margin-left:49%;
+            margin-top:2.2%;
+            transition: all 500ms ease-in-out;
+        }
+        .twitterholder:hover{
+            background-color:white;
+        }
+        .twitterholder:hover .fa-twitter{
+            color:#407ad6;
+        }
+        .fa-twitter{
+            color:white;
+            font-size:1.6em;
+            margin-top:20%;
+            margin-left:10%;
+            position:absolute;
+            transition: all 500ms ease-in-out;
+        }
+    
+        
+                    
+                </style>
+                
+            <div class = Shahzaib><p class=mem1>Shahzaib Sahibzada</p><img src="Shah.jpg"/><p class = design>Designs Specialist</p><i class="fa fa-github" aria-hidden="true"></i><i class="fa fa-linkedin-square" aria-hidden="true"></i></div>
+                <div class = Binura><p class=mem2>Binura Gunasekera</p><img src="SGG.jpg"/><p class= UXD>Lead Designer</p><i class="fa fa-github" aria-hidden="true"></i><i class="fa fa-linkedin-square" aria-hidden="true"></i></div>
+                <div class = Ellen><p class=mem3>Ellen Li</p><img src="Ellen.jpg"/><p class = production>Production Lead</p><i class="fa fa-github" aria-hidden="true"></i><i class="fa fa-linkedin-square" aria-hidden="true"></i></div>
+                <div class = Siva><p class=mem4>Sivakumar Tharmendrah</p><img src="siva.jpg"/><p class = business>Business Exec.</p><i class="fa fa-github" aria-hidden="true"></i><i class="fa fa-linkedin-square" aria-hidden="true"></i></div>
+                <div class = Sebastien><p class=mem5>Sébastien Gorman</p><img src="Seb.png"/><p class = LB>Business Lead</p><i class="fa fa-github" aria-hidden="true"></i><i class="fa fa-linkedin-square" aria-hidden="true"></i></div>
+            
+    <!-- BOTTOM BAR -->
+            
+                <div class = bottombar>
+                    <div class = twitterholder>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                    <div class = facebookholder>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                        <p2>The Ultimate</p2>
+                        <p1>A MaxCap Development</p1> 
+                        <p3>Software</p3>
+                    
+                </div>
         </body>
 </html>
 
