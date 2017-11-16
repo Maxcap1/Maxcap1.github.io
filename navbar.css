@@ -783,10 +783,7 @@ a.arrowmid{
     transition: all 500ms ease-in-out;
     transition-delay:0.2s;
 }
-.value:hover .coolleftttz{
-    width:2px;
-    height:100px;
-}
+
 
 .coolrightttz{
     position:absolute;
@@ -800,11 +797,7 @@ a.arrowmid{
     transition-delay:0.2s;
 }
 
-.value:hover .coolrightttz{
-    height:101.5px;
-    width:2px;
-    
-}
+
 
 .coolbottommmz{
     position:absolute;
@@ -1272,7 +1265,7 @@ li a {
 
 
 
-body{
+        body{
             background-repeat: no-repeat;
             background-image:url(Parallaxxx.jpg);
             background-attachment: fixed;
@@ -1296,7 +1289,7 @@ body{
             font-size:100px;
             color:white;
             position:absolute;
-            margin-top:-2565px;
+            margin-top:-2595px;
             margin-left:680px;
         }
         .phrase2{
@@ -1304,7 +1297,7 @@ body{
             font-size:50px;
             color:white;
             position:absolute;
-            margin-top:-2420px;
+            margin-top:-2450px;
             margin-left:930px;
             
         }
@@ -1313,7 +1306,7 @@ body{
             font-size:250px;
             color:white;
             position:absolute;
-            margin-top:-2465px;
+            margin-top:-2495px;
             margin-left:685px;
         }
         .phrase4{
@@ -1365,7 +1358,7 @@ body{
         .idkman{
             font-family:Saira Extra condensed;
             color:black;
-            background-color:#D5D8DE;
+            background-color:#0C0C17;
             width:100%;
             height:660px;
             position:absolute;
@@ -1412,12 +1405,9 @@ body{
             margin-left:910px;
             margin-top:70px;
         }
-        .value:hover .fa-thumbs-up{
-            color:white;
-        }
-        .idkman:hover .value{
-            background-color:rgba(0,0,0,1);
-        }
+.value{
+    background-color:none;
+}
         .updateform{
             position:absolute;
             margin-left:-8px;
@@ -1464,7 +1454,7 @@ body{
             width:20%;
             margin-top:160px;
             margin-left:60px;
-            background-color:rgba(0,0,0,0.8);
+            background-color:rgba(0,0,0,0.0);
             transition:all 700ms ease-in-out;
         }
      
@@ -1519,7 +1509,7 @@ body{
             width:20%;
             margin-top:160px;
             margin-left:530px;
-            background-color:rgba(0,0,0,0.8);
+            background-color:rgba(0,0,0,0.0);
             transition:all 700ms ease-in-out;
             
         }
@@ -1575,7 +1565,7 @@ body{
             width:20%;
             margin-top:160px;
             margin-left:1000px;
-            background-color:rgba(0,0,0,0.8);
+            background-color:rgba(0,0,0,0.0);
             transition: all 700ms ease-in-out;
             
         }
@@ -1599,10 +1589,10 @@ body{
         .satisfaction:hover p{
             color:white;
         }
-        .satisfaction .fa-map-marker{
+        .satisfaction .fa-check{
             font-size:80px;
             position:absolute;
-            margin-left:27px;
+            margin-left:10px;
             margin-top:10px;
             transition:all 700ms ease-in-out;
         }
@@ -1632,7 +1622,6 @@ body{
             font-family: Saira Extra condensed;
             position:absolute;
             height:20px;
-            background-color:#000000;
             width:30%;
             margin-top:25px;
             margin-left:680px;
@@ -1654,7 +1643,7 @@ body{
             width:20%;
             margin-top:160px;
             margin-left:1470px;
-            background-color:rgba(0,0,0,0.8);
+            background-color:rgba(0,0,0,0.0);
             transition: all 700ms ease-in-out;
         }
         .easy p{
@@ -1675,28 +1664,17 @@ body{
         .easy:hover p{
             color:white;
         }
-        .easy .fa-map-marker{
-            font-size:80px;
+        .easy .fa-user{
+            font-size:75px;
             position:absolute;
-            margin-left:27px;
-            margin-top:10px;
+            margin-left:23px;
+            margin-top:8px;
             transition:all 700ms ease-in-out;
         }
         .easy:hover .fa-map-marker{
             color:#FFFFFF;
         }
-        .idkman:hover .easy{
-            background-color:rgba(0,0,0,0);
-        }
-        .idkman:hover .satisfaction{
-            background-color:rgba(0,0,0,0);
-        }
-        .idkman:hover .quality{
-            background-color:rgba(0,0,0,0);
-        }
-        .idkman:hover .efficiency{
-            background-color:rgba(0,0,0,0);
-        }
+        
         .papborder{
            
             border-radius:100px;
