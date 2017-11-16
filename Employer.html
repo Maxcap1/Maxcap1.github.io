@@ -10,29 +10,40 @@
     
 <body onload="fadeDown()">
     <style>
-   body{
+    body{
             background-repeat: no-repeat;
-            background-image:url(assets/parallaxxx.jpg);
+            background-image:url(street2.jpg);
             background-attachment: fixed;
             background-size: 1909px 1080px;
         }
+        .image2{
+            height:100%;
+            width:100%;
+            margin-left:-0.5%;
+            position:absolute;
+            background-image:url(parallaxxx.jpg);
+            margin-top:154%;
+            z-index:-100;
+            background-size:1909px 1080px;
+            
+        }
     </style>
-<div class=full>
-    
+<div id = "fuller" class=full>
 
+    
   
     
-    <div class = "logonav"><img src="assets/Maxcap3.png"></div>
+    <div class = "logonav"><a href="index.html"> <img src="Maxcap3.png"> </a></div>
 <div id = "navbarr" class="navbar">
 <ul>
   <li class = homer><a href="#home" class="home">Home<i class="fa fa-home" aria-hidden="true"></i></a><div class = CT></div><div class = CB></div><div class = CR></div><div class = CL></div></li>
   <li class = newser><a href="#news" class="news">News <i class="fa fa-newspaper-o" aria-hidden="true"></i></a><div class = CTT></div><div class = CBB></div><div class = CRR></div><div class = CLL></div></li>
-  <li class = contacter><a href="#contact" class="contact">Contact <i class="fa fa-phone" aria-hidden="true"></i></a><div class = CTTT></div><div class = CBBB></div><div class = CRRR></div><div class = CLLL></div></li>
+  <li class = contacter><a href="contactnew2.html" class="contact">Contact <i class="fa fa-phone" aria-hidden="true"></i></a><div class = CTTT></div><div class = CBBB></div><div class = CRRR></div><div class = CLLL></div></li>
   <li class = teamer><a href="#about" class ="team">Team <i class="fa fa-users" aria-hidden="true"></i></a><div class = CTTTT></div><div class = CBBBB></div><div class = CRRRR></div><div class = CLLLL></div></li>
 </ul>
     </div>
     
-<div class = coolcontainer>
+<div id = "scrollto" class = coolcontainer>
 
     </div>
     
@@ -59,22 +70,22 @@
 
     
     <div class = sometext> You're in Control</div>  
-    <div class = idkman id = "smootherie"><div class = value id = "smoother"><div class = cooltopppz></div><div class = coolleftttz></div><div class = coolrightttz></div><div class = coolbottommmz></div>Our Values</div>
+    <div class = idkman id = "smootherie"><div class = value id = "smoother">Our Values</div>
         
         
         
-    <div class = quality><div class = cooltopppx></div><div class = coolleftttx></div><div class = coolrightttx></div><div class = coolbottommmx></div><div class = mapborder><i class="fa fa-map-marker" aria-hidden="true"></i></div><p>Quality</p><p class = mini>We promise our best efforts. Our advanced systems and databases deliver unparalleled precision. Oh and by the way, <b>Failure</b> isn't a word in our dictionary.</p></div>
+    <div class = quality><div class = mapborder><i class="fa fa-map-marker" aria-hidden="true"></i></div><p>Quality</p><p class = mini>We promise our best efforts. Our advanced systems and databases deliver unparalleled precision. Oh and by the way, <b>Failure</b> isn't a word in our dictionary.</p></div>
         
         
-    <div class = efficiency><div class = cooltopppxx></div><div class = coolleftttxx></div><div class = coolrightttxx></div><div class = coolbottommmxx></div><div class = dapborder><i class="fa fa-thumbs-up" aria-hidden="true"></i></div><p>Efficiency</p><p class = minii>We promise our best efforts. Our advanced systems and databases deliver unparalleled precision. Oh and by the way, <b>Failure</b> isn't a word in our dictionary.</p></div>
+    <div class = efficiency><div class = dapborder><i class="fa fa-thumbs-up" aria-hidden="true"></i></div><p>Efficiency</p><p class = minii>Our technologies ensure maximum efficiency and fast updates that will ensure quality and speed. We focus on failure prevention and speed. </p></div>
         
     
-    <div class = satisfaction><div class = gapborder><div class = cooltopppxxx></div><div class = coolleftttxxx></div><div class = coolrightttxxx></div><div class = coolbottommmxxx></div><i class="fa fa-map-marker" aria-hidden="true"></i></div><p>Satisfaction</p><p class = miniix>We promise our best efforts. Our advanced systems and databases deliver unparalleled precision. Oh and by the way, <b>Failure</b> isn't a word in our dictionary.</p></div>
+    <div class = satisfaction><div class = gapborder><i class="fa fa-check" aria-hidden="true"></i></div><p>Satisfaction</p><p class = miniix>Accurate results, fast response and quick updates all lead to customer and user satisfaction. Customers will save time, and companies will make profits.</p></div>
         
         
         
         
-    <div class = easy><div class = cooltopppxi></div><div class = coolleftttxi></div><div class = coolrightttxi></div><div class = coolbottommmxi></div><div class = papborder><i class="fa fa-map-marker" aria-hidden="true"></i></div><p>Ease of Use</p><p class = miniixx>We promise our best efforts. Our advanced systems and databases deliver unparalleled precision. Oh and by the way, <b>Failure</b> isn't a word in our dictionary.</p></div></div>
+    <div class = easy><div class = papborder><i class="fa fa-user" aria-hidden="true"></i></div><p>Ease of Use</p><p class = miniixx>The user interface is simple, and self-explanatory. Employers can easily view any updated information and customers can view the same information via the app.</p></div></div>
     
 <div id = formnew class = updateform><div class = titlecool id = "smootherz"><br>Live Update Form<div class = CTX></div><div class = CBX></div><div class = CRX></div><div class = CLX></div></div></div>
 <div class = bottombar>
@@ -91,11 +102,12 @@
 <a href="#"class="scrollupper"><i class="fa fa-arrow-up" aria-hidden="true"></i></a> 
 </div>
 </div>
-
+<div class = image2><img src=parallaxxx.jpg/></div>
 <div id = "scrolldummy" class = "scroller">YOTHIS IS A TEST</div>
     
 <div class="scroll-progress-container">
 <div class="scroll-progress"></div></div>
+    
 
 </body>
 </html>
